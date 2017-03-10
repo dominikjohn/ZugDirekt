@@ -98,6 +98,14 @@ $percentage = 1 - $datediff / $datediff2;
                 <img src="images/stills/et04.jpg" width="100%">
             </div>
             <div class="clear"></div>
+            
+            <div class="col-xs-5 mrg">
+                <h4 class="semibold dark condensed uppercase t-left">Beschreibung</h4>
+                <p>Emma ist fest davon überzeugt, dass sie von ihren echten Eltern mit 3 Jahren auf der Erde abgesetzt
+                    worden ist.</p>
+            </div>
+            
+            
         </div>
 
     </div>
