@@ -3,7 +3,7 @@
     <!-- Your Company Name -->
     <h2 class="company-name condensed uppercase white bold">ZugDirekt</h2>
     <!-- Copyright -->
-    <p class="copyright normal">© 2017 Alle Rechte vorbehalten. Version 0.0.5 #LWA
+    <p class="copyright normal">© 2017 Alle Rechte vorbehalten.  <a href="impressum.php" style="color: #aaa">Impressum.</a> <span class="colored">#LWA</span>
     </p>
 </footer><!-- End Footer -->
 

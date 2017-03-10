@@ -2,18 +2,13 @@
 <html lang="de">
 <head>
     <meta charset="utf-8"/>
-    <title>ZugDirekt | Märchenminuten</title>
+    <title>ZugDirekt | Märchenminuten One Take</title>
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
     <?php include 'imports.php' ?>
 </head>
 
 <body>
-
-<!-- Page Loader -->
-<section id="pageloader">
-    <div class="loader-item fa fa-spin colored-border"></div>
-</section>
 
 <?php include 'navbar.php'; ?>
 
@@ -23,7 +18,14 @@ $video_id = 'aQU9RHEX-S4';
 
 $JSON = file_get_contents("https://www.googleapis.com/youtube/v3/videos?part=statistics&id=" . $video_id . "&key=" . $api_key);
 $json_data = json_decode($JSON, true);
-$view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
+
+$views = $json_data['items'][0]['statistics']['viewCount'];
+if ($views > 4121) {
+    $k_option = true;
+    $views = floor($views / 1000);
+} else {
+    $k_option = false;
+}
 
 ?>
 
@@ -45,79 +47,74 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
 
 <section id="shortcodes" class="container">
     <div class="inner_s">
-        <!-- Facts, Skills -->
         <div class="cont">
             <div class="col-xs-12 facts">
-                <!-- Factor -->
+
                 <div class="col-xs-3 fact mrg">
-                    <!-- Fact Left -->
+
                     <a class="fact-icon">
-                        <!-- Fact Icon -->
-                        <i class="fa fa-users"></i>
+
+                        <i class="fa fa-users" style="color: lightgray"></i>
                     </a>
-                    <!-- Factor Area -->
-                    <div class="fact-number" data-perc="13">
-                        <!-- Factor -->
+
+                    <div class="fact-number" data-perc="15">
+
                         <h1 class="factor"></h1>
-                        <!-- Factor Description -->
+
                         <h3 class="light uppercase">Beteiligte<br/> Personen</h3>
-                    </div><!-- End Factor Area -->
-                </div><!-- End Factor -->
+                    </div>
+                </div>
 
 
-                <!-- Factor -->
                 <div class="col-xs-3 fact mrg">
-                    <!-- Fact Left -->
                     <a class="fact-icon">
-                        <!-- Fact Icon -->
-                        <i class="fa fa-calendar-o"></i>
+                        <img src="images/crown.svg" width="50px" style="margin-top: 32px;"/>
                     </a>
-                    <!-- Factor Area -->
+
                     <div class="fact-number" data-perc="1">
-                        <!-- Factor -->
+
                         <h1 class="factor light"></h1>
-                        <!-- Factor Description -->
-                        <h3 class="light uppercase">Drehtag</h3>
-                    </div><!-- End Factor Area -->
-                </div><!-- End Factor -->
+
+                        <h3 class="light uppercase">König</h3>
+                    </div>
+                </div>
 
                 <div class="col-xs-3 fact mrg">
-                    <!-- Fact Left -->
+
                     <a class="fact-icon">
-                        <!-- Fact Icon -->
-                        <i class="fa fa-clock-o"></i>
+
+                        <i class="fa fa-repeat" style="color: lightblue"></i>
                     </a>
-                    <!-- Factor Area -->
-                    <div class="fact-number" data-perc="3">
-                        <!-- Factor -->
+
+                    <div class="fact-number" data-perc="13">
+
                         <h1 class="factor light"></h1>
-                        <!-- Factor Description -->
-                        <h3 class="light uppercase">Minuten Rohmaterial</h3>
-                    </div><!-- End Factor Area -->
-                </div><!-- End Factor -->
+
+                        <h3 class="light uppercase">One-Take-Versuche</h3>
+                    </div>
+                </div>
 
 
-                <!-- Factor -->
                 <div class="col-xs-3 fact mrg">
-                    <!-- Fact Left -->
-                    <a class="fact-icon">
-                        <!-- Fact Icon -->
-                        <i class="fa fa-play"></i>
+
+                    <a class="fact-icon" href="<?php echo 'http://youtube.com/watch?v=' . $video_id ?>" target="_blank">
+
+                        <i class="fa fa-play" style="color: lightcoral"></i>
                     </a>
-                    <!-- Factor Area -->
-                    <div class="fact-number" data-perc="<?php echo $view_count; ?>">
-                        <!-- Factor -->
+
+                    <div class="fact-number" data-perc="<?php echo $views; ?>">
+
                         <h1 class="factor light"></h1>
-                        <h1 class="suffix light">k</h1>
-                        <!-- Factor Description -->
+                        <h1 class="suffix light"><?php echo $k_option ? 'k' : '' ?></h1>
+
                         <h3 class="light uppercase">YouTube-Aufrufe</h3>
-                    </div><!-- End Factor Area -->
-                </div><!-- End Factor -->
+                    </div>
+                </div>
 
             </div>
         </div>
 
-    </div><!-- End inner -->
+    </div>
 
     <!-- Pricing Tables -->
     <div class="inner_s gray2">
@@ -133,11 +130,8 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
             </div>
 
             <div class="col-xs-6 mrg">
-                <h4 class="semibold dark condensed uppercase t-left">Testtitel</h4>
-                It is a long established fact that a reader will be distracted by the readable content of a page when
-                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
-                of letters, ipsum' will uncover many web sites still in their infancy. Various versions have evolved
-                over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                <h4 class="semibold dark condensed uppercase t-left">Mehr Informationen folgen in Kürze.</h4>
+
             </div>
             <div class="clear"></div>
         </div>

@@ -1,12 +1,17 @@
 $(document).ready(function () {
 
     flickerLight();
-    switchText();
-
+    //switchText();
+    
     $('.tocolor').on('mouseover', function () {
         $(this).css({'-webkit-filter': 'grayscale(0%)'});
     }).on('mouseleave', function () {
         $(this).css({'-webkit-filter': 'grayscale(100%)'});
+    });
+
+    $('.btn-tab').on('click', function () {
+        $('.btn-tab').removeClass('btn-tab-active');
+        $(this).addClass('btn-tab-active');
     });
 
 });
@@ -19,7 +24,7 @@ function flickerLight() {
 
     window.setTimeout(function () {
         flickerLight()
-    }, Math.pow(5 + Math.floor(Math.random() * 100), 2))
+    }, Math.pow(5 + Math.floor(Math.random() * 120), 2))
 
 }
 
@@ -27,7 +32,7 @@ var counter = 0;
 
 function switchText() {
 
-    var words = ['cinematography', 'photography', 'web design','creativity', 'productivity', 'other stuff'];
+    var words = ['cinematography', 'photography', 'web design', 'creativity', 'productivity', 'other stuff'];
     $('#toswitch').text(words[counter]);
 
     if (counter == words.length - 1) {

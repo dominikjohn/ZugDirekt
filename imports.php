@@ -1,5 +1,14 @@
 <!--Favicon -->
-<link rel="icon" type="image/png" href="images/favicon.png"/>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<meta name=”description” content=”Film, Foto und Webdesign.”/>
+<meta property=”og:title” content="ZugDirekt"/>
+<meta property=”og:url” content=”http://zugdirekt.com/"/>
+<meta property=”og:description” content=”Flim, Foto und Webdesign.”/>
+<meta property="og:image" content="images/apple-touch-icon.png">
+<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
+
 
 <!-- CSS Files -->
 <link rel="stylesheet" href="css/reset.css"/>

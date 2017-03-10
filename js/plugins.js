@@ -158,7 +158,7 @@ $(function () {
 $('body').scrollspy({
     target: '.nav-menu',
     offset: 95
-})
+});
 
 /* ==============================================
  Tooltips Calling

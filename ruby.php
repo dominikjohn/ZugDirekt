@@ -10,11 +10,6 @@
 
 <body>
 
-<!-- Page Loader -->
-<section id="pageloader">
-    <div class="loader-item fa fa-spin colored-border"></div>
-</section>
-
 <?php include 'navbar.php'; ?>
 
 <?php
@@ -53,7 +48,7 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
                     <!-- Fact Left -->
                     <a class="fact-icon">
                         <!-- Fact Icon -->
-                        <i class="fa fa-users"></i>
+                        <i class="fa fa-users" style="color: lightgray"></i>
                     </a>
                     <!-- Factor Area -->
                     <div class="fact-number" data-perc="21">
@@ -92,7 +87,7 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
                         <!-- Factor -->
                         <h1 class="factor light"></h1>
                         <!-- Factor Description -->
-                        <h3 class="light uppercase">Minuten Rohmaterial</h3>
+                        <h3 class="light uppercase">Minuten<br> Rohmaterial</h3>
                     </div><!-- End Factor Area -->
                 </div><!-- End Factor -->
 
@@ -100,9 +95,9 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
                 <!-- Factor -->
                 <div class="col-xs-3 fact mrg">
                     <!-- Fact Left -->
-                    <a class="fact-icon">
+                    <a class="fact-icon" href="<?php echo 'http://youtube.com/watch?v=' . $video_id ?>" target="_blank">
                         <!-- Fact Icon -->
-                        <i class="fa fa-play"></i>
+                        <i class="fa fa-play" style="color: lightcoral"></i>
                     </a>
                     <!-- Factor Area -->
                     <div class="fact-number" data-perc="<?php echo $view_count; ?>">
@@ -120,47 +115,80 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
     </div><!-- End inner -->
 
     <!-- Pricing Tables -->
-    <div class="inner_s gray2">
-
-
+    <div class="inner_s">
         <!-- Two Column -->
         <div class="columns t-left">
-            <div class="col-xs-6 mrg">
+            <div class="col-xs-6 t-left">
+                <h2 class="l-header semibold dark condensed uppercase t-left">Der Film</h2>
                 <div class="video-container">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/WBC2MukULcE" frameborder="0"
                             allowfullscreen></iframe>
                 </div>
             </div>
+            <div class="col-xs-6 t-left">
+                <!-- Header -->
+                <h2 class="l-header semibold dark condensed uppercase t-left">Festivals</h2>
+                <!-- My Tabs -->
+                <ul class="" id="myTab">
+                    <a href="#home" data-toggle="tab">
+                        <li class="btn btn-tab btn-tab-active"><b>39. Filmtage der Bayerischen Schulen</b></li>
+                    </a>
+                    <a href="#profile" data-toggle="tab">
+                        <li class="btn btn-tab"><b>Flimmern und Rauschen 2017</b></li>
+                    </a>
+                </ul>
+                <!-- Tab Content -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="home">
+                        Sie ist echt anders drauf: steht auf Programmieren, Schrauben und Löten. Klar, dass außer dem
+                        Klassen-Nerd keiner viel mit ihr zu tun haben will. Nur wenn mal das Smartphone zickt, kann man
+                        sie gebrauchen. Doch Ruby sollte keiner unterschätzen. Sie schreibt ihren eigenen Code und hackt
+                        sich nach und nach in die Smartphones der „supercoolen“ Mitschüler ein. Jede noch so intime
+                        Message liest sie mit und beginnt schon nach kurzer Zeit, Gott zu spielen. Delikate Clips werden
+                        gepostet, Beziehungen gehen in die Brüche, keiner traut mehr dem anderen, alles gerät ins
+                        Rutschen. Nur Ruby hängt mitten drin fest auf der Rutsche ihres Lebens.<br/>
 
-            <div class="col-xs-6 mrg">
-                <h4 class="semibold dark condensed uppercase t-left">Laudatio der Jury der 39. Filmtage der bayerischen
-                    Schulen</h4>
-                <p>Sie ist echt anders drauf: steht auf Programmieren, Schrauben und Löten. Klar, dass außer dem
-                    Klassen-Nerd keiner viel mit ihr zu tun haben will. Nur wenn mal das Smartphone zickt, kann man sie
-                    gebrauchen. Doch Ruby sollte keiner unterschätzen. Sie schreibt ihren eigenen Code und hackt sich
-                    nach
-                    und nach in die Smartphones der „supercoolen“ Mitschüler ein. Jede noch so intime Message liest sie
-                    mit
-                    und beginnt schon nach kurzer Zeit, Gott zu spielen. Delikate Clips werden gepostet, Beziehungen
-                    gehen
-                    in die Brüche, keiner traut mehr dem anderen, alles gerät ins Rutschen. Nur Ruby hängt mitten drin
-                    fest
-                    auf der Rutsche ihres Lebens.</p>
-                <p>
-                    In unglaublich eindringlichen Bildern erzählen die Filmemacher die vielschichtige Story des
-                    hochbegabten
-                    Mädchens, das sich am Ende in seiner Zerstörungslust findet. Herausragendes Schauspiel, technische
-                    Perfektion und eine professionelle filmische Haltung lassen nur eine Diagnose zu: schwer
-                    preisverdächtig.
-                </p>
-                <p>
-                    Die Filmgruppe erhält den Förderpreis des Staatsminister für Bildung und Kultus, Wissenschaft und
-                    Kunst,
-                    Dr. Ludwig Spaenle und den undotierten Zuschauerpreis.
-                </p>
+                        In unglaublich eindringlichen Bildern erzählen die Filmemacher die vielschichtige Story des
+                        hochbegabten Mädchens, das sich am Ende in seiner Zerstörungslust findet. Herausragendes
+                        Schauspiel, technische Perfektion und eine professionelle filmische Haltung lassen nur eine
+                        Diagnose zu: schwer preisverdächtig.<br/>
+
+                        Die Filmgruppe erhält den Förderpreis des Staatsminister für Bildung und Kultus, Wissenschaft
+                        und Kunst, Dr. Ludwig Spaenle und den undotierten Zuschauerpreis.
+                    </div>
+
+                    <div class="tab-pane" id="profile">
+                        RUBY Gewinnt bei dem Festival "Flimmern & Rauschen 2017" den Münchner Jugendfilmpreis in der
+                        Kategorie der 17 bis 21 Jährigen.<br/><br/>
+
+                        Der Außenseiterin Ruby sind „Computer lieber als Menschen“. Sie mag ihr Dasein als Nerd und dass
+                        sie von allen in Ruhe gelassen wird. Als sie die Gelegenheit bekommt, sich in die Handys ihrer
+                        Mitschüler einzuhacken, nutzt sie das gnadenlos aus und bringt Beziehungen und Freundschaften
+                        total durcheinander. Der unter Leitung von Amon Ritz von 17 Schülerinnen und Schülern des
+                        Albert-Einstein-Gymnasiums in eigenverantwortlicher Arbeit entstandene Kurzspielfilm RUBY
+                        zeichnet ein facettenreiches Bild eines Mädchens, das sich an ihr Außenseiterdasein gewöhnt hat
+                        und nun plötzlich das Leben anderer bestimmen kann. Bewusst wird dabei nicht die Moralkeule
+                        geschwungen. Dank der tollen und sehr eigenen Bildsprache, der guten Darsteller und nicht
+                        zuletzt der passenden Musik ist RUBY ein überaus gelungener Film, der einen Preis mehr als
+                        verdient hat.<br/><br/>
+
+                        RUBY ist nominiert für das Bayrische Kinder & Jugend Filmfestival 2018 in Roth.
+                    </div>
+                </div>
+            </div><!-- End Tabs -->
+            <div class="col-xs-12 mrg">
+                <h4 class="l-header semibold dark condensed uppercase t-left">Film Stills</h4>
+
+                <img src="images/stills/ruby01.jpg" width="100%">
+                <br><br><br>
+                <img src="images/stills/ruby02.jpg" width="100%">
+                <br><br><br>
+                <img src="images/stills/ruby03.jpg" width="100%">
             </div>
             <div class="clear"></div>
         </div>
+
+        <div class="clear"></div>
 
     </div>
 

@@ -2,11 +2,8 @@
 /* Open Sans */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700,800);
 /* Open Sans Condensed */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Slabo+27px');
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
-/* Condiment */
-@import url(http://fonts.googleapis.com/css?family=Condiment);
-/* Playball */
-@import url(http://fonts.googleapis.com/css?family=Playball);
 
 /* CUSTOM STUFF */
 @media only screen and (min-width: 0px) {
@@ -60,6 +57,39 @@
     -webkit-transition: 500ms;
 }
 
+.tab-pane {
+    border-width: 0 !important;
+    border: none !important;
+}
+
+a, a:active, a:focus, a:hover {
+    color: #333333;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.btn-tab {
+    color: #000000;
+    border-width: 0;
+    background-color: #eee;
+    -webkit-box-shadow: 0 0 0 0 #fff !important;
+    -moz-box-shadow: 0 0 0 0 #fff !important;
+    box-shadow: 0 0 0 0 #fff !important;
+}
+
+.tab-content {
+    background-color: #eee;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 18px;
+}
+
+.btn-tab-active {
+    background-color: #ccc !important;
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -99,7 +129,8 @@ html, body {
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-family: 'Slabo 27px', 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -126,8 +157,17 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Slabo 27px', 'Open Sans', sans-serif;
     font-weight: 100;
+}
+
+h4 {
+    font-size: 0.95em;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em !important;
 }
 
 p {
@@ -144,7 +184,7 @@ ol, ul {
 }
 
 b.caret {
-    margin: -3px 0 auto 5px;
+    margin: -4px 0 auto 5px;
 }
 
 .btn {
@@ -166,14 +206,6 @@ b.caret {
 
 .condensed {
     font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.condiment {
-    font-family: 'Condiment', cursive;
-}
-
-.playball {
-    font-family: 'Playball', cursive;
 }
 
 /* Page Animated item Styles */
@@ -235,10 +267,10 @@ b.caret {
     left: 50%;
     text-align: center;
     background: white;
-    border-left: 3px solid;
-    border-right: 3px solid;
-    border-top: 3px solid;
-    border-bottom: 3px solid transparent !important;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    border-top: 4px solid;
+    border-bottom: 4px solid transparent !important;
     border-radius: 200px;
 }
 
@@ -543,7 +575,7 @@ b.caret {
 }
 
 .slide-text {
-    margin: 3px auto 0;
+    margin: 4px auto 0;
 }
 
 .slide-text li:last-child {
@@ -576,7 +608,8 @@ b.caret {
     color: #b8b7b7;
     padding: 5px 20px 5px 13px;
     width: auto;
-    font-size: 13px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
     background: url(../images/li-item.png) right center no-repeat;
     display: inline-block;
 }
@@ -854,7 +887,7 @@ b.caret {
     position: fixed;
     width: 100%;
     height: 75px;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
     z-index: 1031;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -870,7 +903,7 @@ b.caret {
 }
 
 .white-nav {
-    background: rgba(255, 255, 255, 0.97);
+    background: rgba(255, 255, 255, 1);
 }
 
 .dark-nav {
@@ -1585,7 +1618,7 @@ li.note p.history-date {
 li.note p.history-head {
     font-size: 17px;
     color: #696969;
-    margin: 3px auto;
+    margin: 4px auto;
 }
 
 li.note p.history-desc {
@@ -2187,7 +2220,7 @@ span.positive-s {
 }
 
 .why-oxygen-accordion .accordion-toggle {
-    padding: 3px 0;
+    padding: 4px 0;
     display: block;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -2347,6 +2380,7 @@ span.positive-s {
     display: block;
     float: left;
     background: #2a2a2a;
+    border-radius: 4px 4px 4px 4px !important;
     width: 35%;
     height: 100px;
     text-align: center;
@@ -2495,7 +2529,7 @@ ul.tables li.pricing-table {
     text-align: center;
     width: 100%;
     margin-top: 15px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Pricing Table Image */
@@ -2527,7 +2561,7 @@ ul.tables li.pricing-table {
     border: 1px solid #f2f2f2;
     border-radius: 200px;
     bottom: 0;
-    box-shadow: -3px 3px 5px #dcdcdc inset;
+    box-shadow: -4px 4px 5px #dcdcdc inset;
     -webkit-transform: translateY(50%);
     -moz-transform: translateY(50%);
     transform: translateY(50%);
@@ -2733,7 +2767,7 @@ ul.tables li.pricing-table {
     border: 1px solid rgba(255, 255, 255, 0.15);
     margin-bottom: 25px;
     color: #727272 !important;
-    font-size: 13px;
+    font-size: 16px;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
@@ -2769,6 +2803,7 @@ ul.tables li.pricing-table {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    font-size: 20px;
 }
 
 .form-btn:hover {
@@ -2827,6 +2862,7 @@ ul.tables li.pricing-table {
 #site-socials .address {
     width: 100%;
     height: auto;
+    font-size: 20px;
     margin: 25px auto 0;
 }
 
@@ -2868,7 +2904,7 @@ ul.tables li.pricing-table {
     margin-bottom: 0;
     padding-bottom: 0;
     color: #8b8b8b;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .footer p.copyright a:hover {
@@ -3126,7 +3162,7 @@ section.page_header {
     color: #eaeaea;
     border: none;
     outline: none;
-    padding: 3px 7px;
+    padding: 4px 7px;
     text-align: center;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
