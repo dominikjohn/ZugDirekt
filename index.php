@@ -10,9 +10,14 @@
 <?php include 'navbar.php'; ?>
 
 <!-- Home Section -->
+
 <section id="home">
     <div id="slides" class="home parallax pattern-black">
         <div class="home-details">
+
+        <!-- Easter Egg Link -->
+        <a href="happytosayhello.php"><font color="#000000">.</a></font></p>
+
             <!-- Your Logo -->
             <div class="logo animated" data-animation="fadeInUp" data-animation-delay="500">
                 <img id="logo" src="images/logo-icon.svg" alt="Logo"/>
@@ -28,10 +33,16 @@
                                                                               class="colored">Creativity</span></h1>
                 <!-- Home Categories -->
                 <ul class="home-categories">
-                    <li class="h-item uppercase ">cinematography</li>
+                    <li class="h-item uppercase ">cinematograhy</li>
                     <li class="h-item uppercase ">photography</li>
                     <li class="h-item uppercase ">web design</li>
                 </ul>
+
+
+
+
+
+
                 <!-- Bottom Arrow -->
                 <a href="#upcoming" class="home-arrow scroll uppercase bold animated" data-animation="fadeInUp"
                    data-animation-delay="1500">
