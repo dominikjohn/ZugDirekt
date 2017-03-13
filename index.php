@@ -206,7 +206,7 @@
                    class="bold dark">&#109;&#097;&#105;&#108;&#064;&#122;&#117;&#103;&#100;&#105;&#114;&#101;&#107;&#116;&#046;&#099;&#111;&#109;</a>
             </p>
             <!-- Adress -->
-            <p><span class="bold colored">Zuhause in München</span></p>
+            <p><span class="bold colored">Zuhause in und um München</span></p>
             <!-- Top Button -->
             <a href="#home" class="scroll top-button">
                 <i class="fa fa-angle-double-up"></i>
