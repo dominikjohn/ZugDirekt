@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="utf-8"/>
-    <title>ZugDirekt | Impressum</title>
+    <title>ZugDirekt | Happy to say hello!</title>
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
     <?php include 'imports.php' ?>
@@ -37,7 +37,7 @@
             <div class="col-xs-12 mrg">
 
                 <center>
-                Die Offizielle Liste der zulässigen ZD Begrüßungen und Verabschiedungen:<br/>
+                Die offizielle Liste der zulässigen ZD Begrüßungen und Verabschiedungen:<br/>
                 <br/>
                 Guten Morgen!<br/>
                 Schöne Ferien!<br/>
