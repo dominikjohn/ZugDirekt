@@ -33,7 +33,7 @@
                                                                               class="colored">Creativity</span></h1>
                 <!-- Home Categories -->
                 <ul class="home-categories">
-                    <li class="h-item uppercase ">cinematograhy</li>
+                    <li class="h-item uppercase ">cinematography</li>
                     <li class="h-item uppercase ">photography</li>
                     <li class="h-item uppercase ">web design</li>
                 </ul>
