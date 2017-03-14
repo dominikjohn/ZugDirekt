@@ -57,9 +57,9 @@ Drop Down Menu Fade Effect
 =============================================== */  
 
 $('.nav-toggle').hover(function() {
-    $(this).find('.dropdown-menu').first().stop(true, true).slideDown(2500);
+    $(this).find('.dropdown-menu').first().stop(true, true).slideDown(250);
     }, function() {
-    $(this).find('.dropdown-menu').first().stop(true, true).slideUp(2500)
+    $(this).find('.dropdown-menu').first().stop(true, true).slideUp(250)
     });
 
 /* ==============================================
