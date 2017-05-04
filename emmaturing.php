@@ -16,12 +16,12 @@
 $api_key = 'AIzaSyAwIo8s86R20v2av6pl-Qh1uwCmcPrTZcI';
 $video_id = 'null';
 
-$JSON = file_get_contents("https://www.googleapis.com/youtube/v3/videos?part=statistics&id=" . $video_id . "&key=" . $api_key);
+/*$JSON = file_get_contents("https://www.googleapis.com/youtube/v3/videos?part=statistics&id=" . $video_id . "&key=" . $api_key);
 $json_data = json_decode($JSON, true);
 $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
-
+*/
 $begin = strtotime("01.10.2016");
-$release = strtotime("01.05.2017");
+$release = strtotime("01.06.2017");
 $now = time();
 
 $datediff = $release - $now;
@@ -87,6 +87,10 @@ $percentage = 1 - $datediff / $datediff2;
                 <p class="t-left"></p>
             </div>
 
+            <div class="col-xs-12 mrg">
+                <h4 class="l-header semibold dark condensed uppercase t-left">Cover</h4>
+                <img src="images/covers/etnew.png" width="100%">
+            </div>
             <div class="col-xs-12 mrg">
                 <h4 class="l-header semibold dark condensed uppercase t-left">Film Stills</h4>
                 <img src="images/stills/et01.jpg" width="100%">

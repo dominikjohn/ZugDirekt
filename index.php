@@ -60,7 +60,7 @@
                     <!-- Team Member Image -->
                     <a class="team-image" href="emmaturing.php">
                         <!-- Img -->
-                        <img src="images/covers/emmaturing.jpg" class="blackandwhite tocolor" alt=""/>
+                        <img src="images/covers/etnew.png" class="blackandwhite tocolor" alt=""/>
                     </a>
                 </div> <!-- End Member Inner -->
             </div><!-- End Member -->
