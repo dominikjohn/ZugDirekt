@@ -102,6 +102,7 @@ $percentage = 1 - $datediff / $datediff2;
                 <img src="images/stills/et04.jpg" width="100%">
             </div>
             <div class="clear"></div>
+
         </div>
 
     </div>

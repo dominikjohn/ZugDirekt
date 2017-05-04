@@ -29,7 +29,7 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
         <!-- Header -->
         <h1 class="fixed-text hometext condensed uppercase white bold t-center">
             Ruby
-        </h1>
+        </h1> 
         <!-- Description -->
         <p class="light t-center">
             Ein Kurzfilm.
@@ -140,27 +140,38 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
                 <!-- Tab Content -->
                 <div class="tab-content">
                     <div class="tab-pane active" id="home">
+                        Laudatio der Jury der 39. Filmtage der Bayrischen Schulen: 
+                            <br/><br/>
                         Sie ist echt anders drauf: steht auf Programmieren, Schrauben und Löten. Klar, dass außer dem
                         Klassen-Nerd keiner viel mit ihr zu tun haben will. Nur wenn mal das Smartphone zickt, kann man
                         sie gebrauchen. Doch Ruby sollte keiner unterschätzen. Sie schreibt ihren eigenen Code und hackt
                         sich nach und nach in die Smartphones der „supercoolen“ Mitschüler ein. Jede noch so intime
                         Message liest sie mit und beginnt schon nach kurzer Zeit, Gott zu spielen. Delikate Clips werden
                         gepostet, Beziehungen gehen in die Brüche, keiner traut mehr dem anderen, alles gerät ins
-                        Rutschen. Nur Ruby hängt mitten drin fest auf der Rutsche ihres Lebens.<br/>
-
+                        Rutschen. Nur Ruby hängt mitten drin fest auf der Rutsche ihres Lebens.
+                            <br/><br/>
                         In unglaublich eindringlichen Bildern erzählen die Filmemacher die vielschichtige Story des
                         hochbegabten Mädchens, das sich am Ende in seiner Zerstörungslust findet. Herausragendes
                         Schauspiel, technische Perfektion und eine professionelle filmische Haltung lassen nur eine
-                        Diagnose zu: schwer preisverdächtig.<br/>
-
+                        Diagnose zu: schwer preisverdächtig.
+                            <br/><br/>
                         Die Filmgruppe erhält den Förderpreis des Staatsminister für Bildung und Kultus, Wissenschaft
                         und Kunst, Dr. Ludwig Spaenle und den undotierten Zuschauerpreis.
+                            <br/><br/>
+                        Gerbrunn, 16. Oktober 2016
+                            <br/><br/>
+                        <a href="http://www.filmtage-bayerischer-schulen.de" target="_blank" style="color: #000000">zur Festivalseite</a>
+                        
+
+
+
                     </div>
 
                     <div class="tab-pane" id="profile">
                         RUBY Gewinnt bei dem Festival "Flimmern & Rauschen 2017" den Münchner Jugendfilmpreis in der
-                        Kategorie der 17 bis 21 Jährigen.<br/><br/>
-
+                        Kategorie der 17 bis 21 Jährigen.
+                            <br/><br/>
+                        Die Laudatio:<br/>
                         Der Außenseiterin Ruby sind „Computer lieber als Menschen“. Sie mag ihr Dasein als Nerd und dass
                         sie von allen in Ruhe gelassen wird. Als sie die Gelegenheit bekommt, sich in die Handys ihrer
                         Mitschüler einzuhacken, nutzt sie das gnadenlos aus und bringt Beziehungen und Freundschaften
@@ -170,8 +181,8 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
                         und nun plötzlich das Leben anderer bestimmen kann. Bewusst wird dabei nicht die Moralkeule
                         geschwungen. Dank der tollen und sehr eigenen Bildsprache, der guten Darsteller und nicht
                         zuletzt der passenden Musik ist RUBY ein überaus gelungener Film, der einen Preis mehr als
-                        verdient hat.<br/><br/>
-
+                        verdient hat.
+                            <br/><br/>
                         RUBY ist nominiert für das Bayrische Kinder & Jugend Filmfestival 2018 in Roth.
                     </div>
                 </div>
