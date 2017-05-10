@@ -88,10 +88,8 @@ $percentage = 1 - $datediff / $datediff2;
             </div>
 
             <div class="col-xs-12 mrg">
-                <h4 class="l-header semibold dark condensed uppercase t-left">Covers</h4>
-                <img src="images/stills/et/ETcover02-min.png" width="99.99999%">
-                <br><br><br>
-                <img src="images/stills/et/ETcover01-min.png" width="100%">
+                <h4 class="l-header semibold dark condensed uppercase t-left">Cover</h4>
+                <img src="images/stills/et/ETcover02-min.png" width="100%">
             </div>
             <div class="col-xs-12 mrg">
                 <h4 class="l-header semibold dark condensed uppercase t-left">Film Stills</h4>
