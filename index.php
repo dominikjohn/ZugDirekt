@@ -15,8 +15,8 @@
     <div id="slides" class="home parallax pattern-black">
         <div class="home-details">
 
-        <!-- Easter Egg Link -->
-        <a href="happytosayhello.php"><font color="#000000">.</a></font></p>
+            <!-- Easter Egg Link -->
+            <a href="happytosayhello.php"><font color="#000000">.</a></font></p>
 
             <!-- Your Logo -->
             <div class="logo animated" data-animation="fadeInUp" data-animation-delay="500">
@@ -37,10 +37,6 @@
                     <li class="h-item uppercase ">photography</li>
                     <li class="h-item uppercase ">web design</li>
                 </ul>
-
-
-
-
 
 
                 <!-- Bottom Arrow -->
@@ -66,7 +62,8 @@
         <!-- Members -->
         <div class="team-members inner-details">
             <!-- Member -->
-            <div class="col-xs-6 col-lg-7 col-centered member animated" data-animation="fadeInUp" data-animation-delay="200">
+            <div class="col-xs-6 col-lg-7 col-centered member animated" data-animation="fadeInUp"
+                 data-animation-delay="200">
                 <div class="member-inner">
                     <!-- Team Member Image -->
                     <a class="team-image" href="emmaturing.php">
@@ -90,7 +87,8 @@
         <!-- Members -->
         <div class="team-members inner-details">
             <!-- Member -->
-            <div class="col-xs-4 col-sm-6 col-md-6 col-lg-3 member animated" data-animation="fadeInUp" data-animation-delay="200">
+            <div class="col-xs-4 col-sm-6 col-md-6 col-lg-3 member animated" data-animation="fadeInUp"
+                 data-animation-delay="200">
                 <div class="member-inner">
                     <!-- Team Member Image -->
                     <a class="team-image" href="ruby.php">
@@ -102,7 +100,8 @@
 
 
             <!-- Member -->
-            <div class="col-xs-4 col-sm-6 col-md-6 col-lg-3 member animated" data-animation="fadeInUp" data-animation-delay="200">
+            <div class="col-xs-4 col-sm-6 col-md-6 col-lg-3 member animated" data-animation="fadeInUp"
+                 data-animation-delay="200">
                 <div class="member-inner">
                     <!-- Team Member Image -->
                     <a class="team-image" href="symbiose.php">
@@ -114,7 +113,8 @@
 
 
             <!-- Member -->
-            <div class="col-xs-4 col-sm-6 col-md-6 col-lg-3 member animated" data-animation="fadeInUp" data-animation-delay="200">
+            <div class="col-xs-4 col-sm-6 col-md-6 col-lg-3 member animated" data-animation="fadeInUp"
+                 data-animation-delay="200">
                 <div class="member-inner">
                     <!-- Team Member Image -->
                     <a class="team-image" href="maerchenminuten.php">
@@ -124,7 +124,8 @@
                 </div> <!-- End Member Inner -->
             </div><!-- End Member -->
 
-            <div class="col-xs-4 col-sm-6 col-md-6 col-lg-3 member animated" data-animation="fadeInUp" data-animation-delay="200">
+            <div class="col-xs-4 col-sm-6 col-md-6 col-lg-3 member animated" data-animation="fadeInUp"
+                 data-animation-delay="200">
                 <div class="member-inner">
                     <!-- Team Member Image -->
                     <a class="team-image" href="ichbinjulia.php">

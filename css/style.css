@@ -57,6 +57,11 @@
     -webkit-transition: 500ms;
 }
 
+.ui-progressbar-value {
+    transition: width 0.5s;
+    -webkit-transition: width 0.5s;
+}
+
 .tab-pane {
     border-width: 0 !important;
     border: none !important;

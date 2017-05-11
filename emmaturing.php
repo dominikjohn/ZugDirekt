@@ -145,7 +145,8 @@ $percentage = 1 - $datediff / $datediff2;
                          style="background-color: #2A2A2A; width: <?php echo $percentage * 100 ?>%; border-radius: 4px;"></div>
                 </div>
                 <p class="t-left"></p>
-            </div><br >
+            </div>
+            <br>
             <div class="col-xs-12 mrg">
                 <h4 class="l-header semibold dark condensed uppercase t-left">Cover</h4>
                 <img src="images/stills/et/ETcover02-min.png" width="100%">
