@@ -16,7 +16,7 @@
         <div class="home-details">
 
             <!-- Easter Egg Link -->
-            <a href="happytosayhello.php"><font color="#000000">.</a></font></p>
+            <a href="happytosayhello.php"><font color="#000000">.</font></a>
 
             <!-- Your Logo -->
             <div class="logo animated" data-animation="fadeInUp" data-animation-delay="500">
@@ -138,6 +138,34 @@
         </div><!-- End Members -->
     </div><!-- End Team Inner -->
 </section><!-- End Contact Section -->
+
+<section id="photo" class="container waypoint">
+    <!-- Contact Inner -->
+    <div class="inner team">
+        <!--  DeHeader -->
+        <h1 class="header semibold title">Fotoprojekte</h1>
+
+        <!--scription -->
+        <h4 class="">Fast so toll wie Filme. Aber nur fast.<span class="dark bold"></span></h4>
+        <!-- Members -->
+        <div class="team-members inner-details">
+            <!-- Member -->
+            <div class="col-centered col-xs-8 col-sm-6 col-md-6 col-lg-6 member animated" data-animation="fadeInUp"
+                 data-animation-delay="200">
+                <div class="member-inner">
+                    <!-- Team Member Image -->
+                    <a class="team-image" href="#">
+                        <!-- Img -->
+                        <img src="images/photos/smaek.jpg" class="blackandwhite tocolor" alt=""/>
+                    </a>
+                </div> <!-- End Member Inner -->
+            </div><!-- End Member -->
+
+            <div class="clear"></div>
+        </div><!-- End Members -->
+    </div><!-- End Team Inner -->
+</section><!-- End Contact Section -->
+
 
 <!-- Contact Section -->
 <section id="contact" class="container parallax5">
