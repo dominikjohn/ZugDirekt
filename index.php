@@ -154,7 +154,7 @@
                  data-animation-delay="200">
                 <div class="member-inner">
                     <!-- Team Member Image -->
-                    <a class="team-image" href="#">
+                    <a class="team-image" href="smaek.php">
                         <!-- Img -->
                         <img src="images/photos/smaek.jpg" class="blackandwhite tocolor" alt=""/>
                     </a>
