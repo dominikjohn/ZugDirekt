@@ -41,7 +41,22 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
 <section id="shortcodes" class="container">
     <div class="inner_s">
 
-        <div class="cont">
+        <div class="cont visible-xs">
+            <img src="images/photos/smaek/smaek7.jpg" width="100%">
+            <br><br><br>
+            <img src="images/photos/smaek/smaek1.jpg" width="100%">
+            <br><br><br>
+            <img src="images/photos/smaek/smaek3.jpg" width="100%">
+            <br><br><br>
+            <img src="images/photos/smaek/smaek4.jpg" width="100%">
+            <br><br><br>
+            <img src="images/photos/smaek/smaek5.jpg" width="100%">
+            <br><br><br>
+            <img src="images/photos/smaek/smaek2.jpg" width="100%">
+            <br><br><br>
+        </div>
+
+        <div class="cont hidden-xs">
             <div class="col-xs-12">
                 <div class="col-xs-4 mrg no-margin no-padding">
 

@@ -1,0 +1,15 @@
+
+                    <!-- Work -->
+                    <div class="work">
+                        <div class="work-inner">
+                            <!-- Image -->
+                            <div class="work-image">
+                                <a href="images/photos/smaek/smaek1.jpg" data-rel="prettyPhoto[gallery]"
+                                   class="work-link">
+                                    <img src="images/photos/smaek/smaek1.jpg" alt=""/>
+                                    <span class="positive"></span>
+                                </a>
+                            </div>
+                        </div><!-- End Work Inner -->
+                    </div><!-- End Work -->
+                </div>
