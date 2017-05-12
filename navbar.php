@@ -24,6 +24,13 @@
                         <li><a href="maerchenminuten.php">Märchenminuten</a></li>
                     </ul><!-- End DropDown Menu -->
                 </li>
+                <li class="dropdown-toggle nav-toggle">
+                    <a href="index.php#photo" class="scroll">foto<b data-toggle="dropdown" class="caret"></b></a>
+                    <!-- DropDown Menu -->
+                    <ul class="dropdown-menu uppercase gray-border">
+                        <li><a href="smaek.php">SMAEK</a></li>
+                    </ul><!-- End DropDown Menu -->
+                </li>
 
                 <!-- <li class="dropdown-toggle nav-toggle">
                     <a href="index.php#foto" class="scroll">foto<b data-toggle="dropdown" class="caret"></b></a>
