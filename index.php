@@ -76,7 +76,7 @@
         </div><!-- End Members -->
     </div><!-- End Team Inner -->
 </section><!-- End Team Section -->
-<section id="contact" class="container parallax5">
+<section id="film" class="container parallax5">
     <!-- Contact Inner -->
     <div class="inner team">
         <!--  DeHeader -->
@@ -167,7 +167,7 @@
 </section><!-- End Contact Section -->
 
 
-<section id="contact" class="container parallax5">
+<section id="team" class="container parallax5">
     <!-- Contact Inner -->
     <div class="inner team white">
         <!--  DeHeader -->
@@ -248,7 +248,7 @@
 </section><!-- End Contact Section -->
 
 <!-- Contact Section -->
-<section id="contact" class="container parallax5">
+<section id="contact" class="container" style="margin-top: -15px;">
     <!-- Contact Inner -->
     <div class="inner contact">
 

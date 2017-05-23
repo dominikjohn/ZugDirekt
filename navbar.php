@@ -31,16 +31,7 @@
                         <li><a href="smaek.php">SMAEK</a></li>
                     </ul><!-- End DropDown Menu -->
                 </li>
-
-                <!-- <li class="dropdown-toggle nav-toggle">
-                    <a href="index.php#foto" class="scroll">foto<b data-toggle="dropdown" class="caret"></b></a>
-                    <ul class="dropdown-menu uppercase gray-border">
-                        <li><a href="ruby.php">Beispielprojekt 1</a></li>
-                        <li>Symbiose.MENSCH</li>
-                        <li>Märchenminuten</li>
-                    </ul>
-                </li> -->
-
+                <li><a href="index.php#team" class="scroll">team</a></li>
                 <li><a href="index.php#contact" class="scroll">kontakt</a></li>
             </ul>
         </div><!-- End Navigation Menu -->

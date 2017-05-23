@@ -2723,10 +2723,11 @@ ul.tables li.pricing-table {
     opacity: 1;
 }
 
+
 /* Contact */
 
-#contact {
-    background: url(../images/i5.jpg) center fixed;
+#contact, #team, #film {
+    background: #000;
     padding: 10px 0 10px;
 }
 
