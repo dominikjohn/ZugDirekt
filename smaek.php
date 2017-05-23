@@ -22,7 +22,6 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
 
 ?>
 
-
 <!-- Page Header -->
 <section class="page_header container waypoint">
     <div class="page_header_inner">

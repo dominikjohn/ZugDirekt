@@ -21,7 +21,7 @@ $json_data = json_decode($JSON, true);
 $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
 */
 $begin = strtotime("01.10.2016");
-$release = strtotime("01.06.2017");
+$release = strtotime("27.06.2017");
 $now = time();
 
 $datediff = $release - $now;
