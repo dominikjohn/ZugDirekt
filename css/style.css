@@ -40,6 +40,11 @@
     }
 }
 
+.team-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.0em !important;
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
     .logo img {
@@ -1106,7 +1111,7 @@ ul.dropdown-menu li a:hover {
     width: 92px;
     height: 92px;
     position: relative;
-    background: #fafafa;
+    background: #fff;
     border-radius: 12px;
     z-index: 3;
     margin: 1px auto;
@@ -1118,7 +1123,7 @@ ul.dropdown-menu li a:hover {
     content: '';
     z-index: 1;
     position: absolute;
-    background: #fafafa;
+    background: #fff;
     border: 1px solid #686868;
     border-radius: 12px;
     top: -1px;
@@ -1134,7 +1139,7 @@ ul.dropdown-menu li a:hover {
     content: '';
     z-index: 2;
     position: absolute;
-    background: #fafafa;
+    background: #fff;
     border-right: 1px solid #686868;
     border-bottom: 1px solid #686868;
     -webkit-transform: rotate(45deg);
@@ -1161,16 +1166,16 @@ ul.dropdown-menu li a:hover {
 /* About Box Hover Styles */
 
 .about-box:hover .about-icon:before {
-    background: #252525;
+    background: lightgrey;
 }
 
 .about-box:hover .about-icon:after {
-    background: #252525;
+    background: lightgrey;
 }
 
-.about-box:hover .about-icon i {
+/*.about-box:hover .about-icon i {
     color: #fff;
-}
+}*/
 
 .about-box .about-head {
     margin: 30px auto 10px;
@@ -1178,7 +1183,7 @@ ul.dropdown-menu li a:hover {
 }
 
 .about-box .about-text {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 /* Services */

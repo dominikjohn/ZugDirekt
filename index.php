@@ -167,6 +167,67 @@
 </section><!-- End Contact Section -->
 
 
+<section id="contact" class="container parallax5">
+    <!-- Contact Inner -->
+    <div class="inner team white">
+        <!--  DeHeader -->
+        <h1 class="header semibold white title">Das Team</h1>
+        <!--<h4 class="white">Hintergrundinformationen. Videos. Fotos. Texte.<span class="dark bold"></span></h4>-->
+        <div class="boxes">
+            <div class="row">
+                <div class="col-centered col-md-12">
+                    <!-- Box 1 -->
+
+                    <div class="col-xs-1 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                    </div>
+
+                    <div class="col-xs-2 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                        <a class="about-icon">
+                            <i class="fa fa-film"></i>
+                        </a>
+                        <p class="about-head team-name">Amon Ritz</p>
+                        <p class="light about-text">Produktion. Initiator. Kamera.</p>
+                    </div>
+
+                    <!-- Box 2 -->
+                    <div class="col-xs-2 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                        <a class="about-icon">
+                            <i class="fa fa-desktop"></i>
+                        </a>
+                        <p class="about-head team-name">Dominik John</p>
+                        <p class="light about-text">Webdevelopment.</p>
+                    </div>
+
+                    <div class="col-xs-2 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                        <a class="about-icon">
+                            <i class="fa fa-battery-full"></i>
+                        </a>
+                        <p class="about-head team-name">Niklas Ludwig</p>
+                        <p class="light about-text">Technische Leitung.</p>
+                    </div>
+
+                    <div class="col-xs-2 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                        <a class="about-icon">
+                            <i class="fa fa-music"></i>
+                        </a>
+                        <p class="about-head team-name">Ferdinand Singhartinger</p>
+                        <p class="light about-text">Musik. Autor.</p>
+                    </div>
+
+                    <div class="col-xs-2 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                        <a class="about-icon">
+                            <i class="fa fa-camera-retro"></i>
+                        </a>
+                        <p class="about-head team-name">Alois Herrmann</p>
+                        <p class="light about-text">Fotografie. Kamera.</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Boxes -->
+        <div class="clear"></div>
+    </div><!-- End Members -->
+</section><!-- End Contact Section -->
+
 <!-- Contact Section -->
 <section id="contact" class="container parallax5">
     <!-- Contact Inner -->
