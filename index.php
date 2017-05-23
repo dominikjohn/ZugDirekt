@@ -219,7 +219,7 @@
 
                     <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
-                            <i class="fa fa-pagelines"></i>
+                            <i class="fa fa-heart"></i>
                         </a>
                         <p class="about-head team-name">Lilli Biedermann</p>
                         <p class="light about-text">Schauspiel. Gesang.</p>
