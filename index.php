@@ -176,13 +176,8 @@
         <div class="boxes">
             <div class="row">
                 <div class="col-centered col-md-12">
-                    <!-- Box 1 -->
-
-                    <div class="col-xs-1 about-box animated" data-animation="fadeIn" data-animation-delay="300">
-                    </div>
-
-                    <div class="col-xs-2 about-box animated" data-animation="fadeIn" data-animation-delay="300">
-                        <a class="about-icon">
+                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                        <a href="http://amonritz.com" target="_blank" class="about-icon">
                             <i class="fa fa-film"></i>
                         </a>
                         <p class="about-head team-name">Amon Ritz</p>
@@ -190,15 +185,15 @@
                     </div>
 
                     <!-- Box 2 -->
-                    <div class="col-xs-2 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
                             <i class="fa fa-desktop"></i>
                         </a>
                         <p class="about-head team-name">Dominik John</p>
-                        <p class="light about-text">Webdevelopment.</p>
+                        <p class="light about-text">Webdevelopment. Logistik.</p>
                     </div>
 
-                    <div class="col-xs-2 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
                             <i class="fa fa-battery-full"></i>
                         </a>
@@ -206,7 +201,7 @@
                         <p class="light about-text">Technische Leitung.</p>
                     </div>
 
-                    <div class="col-xs-2 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
                             <i class="fa fa-music"></i>
                         </a>
@@ -214,12 +209,36 @@
                         <p class="light about-text">Musik. Autor.</p>
                     </div>
 
-                    <div class="col-xs-2 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
                             <i class="fa fa-camera-retro"></i>
                         </a>
                         <p class="about-head team-name">Alois Herrmann</p>
                         <p class="light about-text">Fotografie. Kamera.</p>
+                    </div>
+
+                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                        <a class="about-icon">
+                            <i class="fa fa-pagelines"></i>
+                        </a>
+                        <p class="about-head team-name">Lilli Biedermann</p>
+                        <p class="light about-text">Schauspiel. Gesang.</p>
+                    </div>
+
+                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                        <a class="about-icon">
+                            <i class="fa fa-align-left"></i>
+                        </a>
+                        <p class="about-head team-name">Anna Drózd</p>
+                        <p class="light about-text">Schauspiel. Autorin.</p>
+                    </div>
+
+                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                        <a class="about-icon">
+                            <i class="fa fa-paint-brush"></i>
+                        </a>
+                        <p class="about-head team-name">Emilia Jung</p>
+                        <p class="light about-text">Maske. Location.</p>
                     </div>
                 </div>
             </div>

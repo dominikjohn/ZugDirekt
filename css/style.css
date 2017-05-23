@@ -1166,11 +1166,11 @@ ul.dropdown-menu li a:hover {
 /* About Box Hover Styles */
 
 .about-box:hover .about-icon:before {
-    background: lightgrey;
+    background: darkgrey;
 }
 
 .about-box:hover .about-icon:after {
-    background: lightgrey;
+    background: darkgrey;
 }
 
 /*.about-box:hover .about-icon i {

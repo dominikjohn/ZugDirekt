@@ -38,7 +38,7 @@
                 <i class="fa fa-fighter-jet fa-5x"></i>
                 <i class="fa fa-fighter-jet fa-5x"></i>
                 <i class="fa fa-fighter-jet fa-5x"></i>
-                <i class="fa fa-fighter-jet fa-5x"></i>
+                <i class="fa fa-bathtub fa-5x"></i>
                 <i class="fa fa-fighter-jet fa-5x"></i>
 
             </div>
