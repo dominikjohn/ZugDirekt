@@ -60,7 +60,7 @@ function switchIcons() {
         //Josef
         var josef = $('.josef').find('i');
         random = Math.random();
-        if (random <= 0.8) {
+        if (random <= 0.9) {
             josef.addClass('fa-cutlery');
         } else if (random <= 0.95) {
             josef.addClass('fa-grav');
