@@ -93,7 +93,7 @@ function switchIcons() {
         random = Math.random();
         if (random <= 0.03) {
             dominik.addClass('fa-wpexplorer');
-        } else if (random <= 0.7) {
+        } else if (random <= 0.07) {
             dominik.addClass('fa-internet-explorer');
             $('.dominik').addClass('ie');
         } else {
@@ -103,7 +103,7 @@ function switchIcons() {
         //Anna
         var lilli = $('.lilli').find('i');
         random = Math.random();
-        if (random <= 0.05) {
+        if (random <= 0.03) {
             lilli.addClass('fa-imdb');
             $('.lilli').addClass('imdb');
         } else {

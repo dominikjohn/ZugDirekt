@@ -25,7 +25,7 @@
             <div class="animated" data-animation="fadeInUp" data-animation-delay="400">
                 <div class="hometexts">
                     <!-- Slide Texts -->
-                    <ul class="fixed-text condensed">
+                    <ul class="fixed-text condensed" style="margin-bottom: 10px">
                         <li class="hometext bold uppercase">ZugDirekt</li>
                     </ul>
                 </div>
@@ -42,7 +42,7 @@
                 <!-- Bottom Arrow -->
                 <a href="#upcoming" class="home-arrow scroll uppercase bold animated" data-animation="fadeInUp"
                    data-animation-delay="1500">
-                    <img src="images/arrow-down.svg" width="60px"/>
+                    <img style="margin-top: 10px" src="images/arrow-down.svg" width="60px"/>
                     <!--<span>what we do ?</span>-->
                 </a>
             </div>
