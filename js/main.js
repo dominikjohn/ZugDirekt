@@ -51,7 +51,7 @@ function switchIcons() {
         //Ferdi
         var ferdi = $('.ferdi').find('i');
         random = Math.random();
-        if (random <= 0.05) {
+        if (random <= 0.03) {
             ferdi.addClass('fa-asterisk');
         } else {
             ferdi.addClass('fa-music');
@@ -60,9 +60,9 @@ function switchIcons() {
         //Josef
         var josef = $('.josef').find('i');
         random = Math.random();
-        if (random <= 0.9) {
+        if (random <= 0.93) {
             josef.addClass('fa-cutlery');
-        } else if (random <= 0.95) {
+        } else if (random <= 0.97) {
             josef.addClass('fa-grav');
         } else {
             josef.addClass('fa-snowflake-o');
@@ -72,7 +72,7 @@ function switchIcons() {
         //Alois
         var alois = $('.alois').find('i');
         random = Math.random();
-        if (random <= 0.05) {
+        if (random <= 0.03) {
             alois.addClass('fa-tachometer');
         } else {
             alois.addClass('fa-camera-retro');
@@ -91,9 +91,9 @@ function switchIcons() {
         //Dominik
         var dominik = $('.dominik').find('i');
         random = Math.random();
-        if (random <= 0.05) {
+        if (random <= 0.03) {
             dominik.addClass('fa-wpexplorer');
-        } else if (random <= 0.1) {
+        } else if (random <= 0.7) {
             dominik.addClass('fa-internet-explorer');
             $('.dominik').addClass('ie');
         } else {
@@ -103,7 +103,7 @@ function switchIcons() {
         //Anna
         var lilli = $('.lilli').find('i');
         random = Math.random();
-        if (random <= 0.07) {
+        if (random <= 0.05) {
             lilli.addClass('fa-imdb');
             $('.lilli').addClass('imdb');
         } else {
