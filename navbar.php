@@ -17,18 +17,18 @@
                     <a href="index.php#video" class="scroll">video<b data-toggle="dropdown" class="caret"></b></a>
                     <!-- DropDown Menu -->
                     <ul class="dropdown-menu uppercase gray-border">
-                        <li><a href="emmaturing.php">Emma Turing</a></li>
-                        <li><a href="ruby.php">Ruby</a></li>
-                        <li><a href="symbiose.php">Symbiose.MENSCH</a></li>
-                        <li><a href="ichbinjulia.php">Ich bin Julia</a></li>
-                        <li><a href="maerchenminuten.php">Märchenminuten</a></li>
+                        <li><a href="emmaturing">Emma Turing</a></li>
+                        <li><a href="ruby">Ruby</a></li>
+                        <li><a href="symbiose">Symbiose.MENSCH</a></li>
+                        <li><a href="ichbinjulia">Ich bin Julia</a></li>
+                        <li><a href="maerchenminuten">Märchenminuten</a></li>
                     </ul><!-- End DropDown Menu -->
                 </li>
                 <li class="dropdown-toggle nav-toggle">
                     <a href="index.php#photo" class="scroll">foto<b data-toggle="dropdown" class="caret"></b></a>
                     <!-- DropDown Menu -->
                     <ul class="dropdown-menu uppercase gray-border">
-                        <li><a href="smaek.php">SMAEK</a></li>
+                        <li><a href="smaek">SMAEK</a></li>
                     </ul><!-- End DropDown Menu -->
                 </li>
                 <li><a href="index.php#team" class="scroll">team</a></li>

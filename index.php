@@ -16,7 +16,7 @@
         <div class="home-details">
 
             <!-- Easter Egg Link -->
-            <a href="happytosayhello.php"><font color="#000000">.</font></a>
+            <a href="happytosayhello"><font color="#000000">.</font></a>
 
             <!-- Your Logo -->
             <div class="logo animated" data-animation="fadeInUp" data-animation-delay="500">
@@ -66,7 +66,7 @@
                  data-animation-delay="200">
                 <div class="member-inner">
                     <!-- Team Member Image -->
-                    <a class="team-image" href="emmaturing.php">
+                    <a class="team-image" href="emmaturing">
                         <!-- Img -->
                         <img src="images/covers/etnew.png" class="blackandwhite tocolor" alt=""/>
                     </a>
@@ -91,7 +91,7 @@
                  data-animation-delay="200">
                 <div class="member-inner">
                     <!-- Team Member Image -->
-                    <a class="team-image" href="ruby.php">
+                    <a class="team-image" href="ruby">
                         <!-- Img -->
                         <img src="images/covers/ruby.jpg" class="blackandwhite tocolor" alt=""/>
                     </a>
@@ -104,7 +104,7 @@
                  data-animation-delay="200">
                 <div class="member-inner">
                     <!-- Team Member Image -->
-                    <a class="team-image" href="symbiose.php">
+                    <a class="team-image" href="symbiose">
                         <!-- Img -->
                         <img src="images/covers/symbiose.jpg" class="blackandwhite tocolor" alt=""/>
                     </a>
@@ -117,7 +117,7 @@
                  data-animation-delay="200">
                 <div class="member-inner">
                     <!-- Team Member Image -->
-                    <a class="team-image" href="maerchenminuten.php">
+                    <a class="team-image" href="maerchenminuten">
                         <!-- Img -->
                         <img src="images/covers/maerchen.jpg" class="blackandwhite tocolor" alt=""/>
                     </a>
@@ -128,7 +128,7 @@
                  data-animation-delay="200">
                 <div class="member-inner">
                     <!-- Team Member Image -->
-                    <a class="team-image" href="ichbinjulia.php">
+                    <a class="team-image" href="ichbinjulia">
                         <!-- Img -->
                         <img src="images/covers/ichbinjulia.jpg" class="blackandwhite tocolor" alt=""/>
                     </a>
@@ -154,7 +154,7 @@
                  data-animation-delay="200">
                 <div class="member-inner">
                     <!-- Team Member Image -->
-                    <a class="team-image" href="smaek.php">
+                    <a class="team-image" href="smaek">
                         <!-- Img -->
                         <img src="images/photos/smaek.jpg" class="blackandwhite tocolor" alt=""/>
                     </a>
@@ -176,7 +176,7 @@
         <div class="boxes">
             <div class="row">
                 <div class="col-centered col-md-12">
-                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                    <div class="  col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a href="http://amonritz.com" target="_blank" class="about-icon">
                             <i class="fa fa-film"></i>
                         </a>
@@ -185,7 +185,7 @@
                     </div>
 
                     <!-- Box 2 -->
-                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                    <div class="col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
                             <i class="fa fa-desktop"></i>
                         </a>
@@ -193,7 +193,7 @@
                         <p class="light about-text">Webdevelopment. Logistik.</p>
                     </div>
 
-                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                    <div class="  col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
                             <i class="fa fa-battery-full"></i>
                         </a>
@@ -201,7 +201,7 @@
                         <p class="light about-text">Technische Leitung.</p>
                     </div>
 
-                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                    <div class="  col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
                             <i class="fa fa-music"></i>
                         </a>
@@ -209,7 +209,7 @@
                         <p class="light about-text">Musik. Autor.</p>
                     </div>
 
-                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                    <div class="  col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
                             <i class="fa fa-camera-retro"></i>
                         </a>
@@ -217,7 +217,7 @@
                         <p class="light about-text">Fotografie. Kamera.</p>
                     </div>
 
-                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                    <div class="  col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
                             <i class="fa fa-heart"></i>
                         </a>
@@ -225,7 +225,7 @@
                         <p class="light about-text">Schauspiel. Gesang.</p>
                     </div>
 
-                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                    <div class="  col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
                             <i class="fa fa-align-left"></i>
                         </a>
@@ -233,7 +233,15 @@
                         <p class="light about-text">Schauspiel. Autorin.</p>
                     </div>
 
-                    <div class="col-xs-3 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                    <div class="col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
+                        <a class="about-icon">
+                            <i class="fa fa-cutlery "></i>
+                        </a>
+                        <p class="about-head team-name">Josef Anetzberger</p>
+                        <p class="light about-text">Best Boy. Catering.</p>
+                    </div>
+
+                    <div class="  col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
                             <i class="fa fa-paint-brush"></i>
                         </a>
