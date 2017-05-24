@@ -29,8 +29,8 @@
                         <li class="hometext bold uppercase">ZugDirekt</li>
                     </ul>
                 </div>
-                <h1 class="fixed-text uppercase bold condensed">Home Of <span id="toswitch"
-                                                                              class="colored">Creativity</span></h1>
+                <!--<h1 class="fixed-text uppercase bold condensed">Home Of <span id="toswitch"
+                                                                              class="colored">Creativity</span></h1>-->
                 <!-- Home Categories -->
                 <ul class="home-categories">
                     <li class="h-item uppercase ">cinematography</li>
