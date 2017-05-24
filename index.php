@@ -175,10 +175,11 @@
         <!--<h4 class="white">Hintergrundinformationen. Videos. Fotos. Texte.<span class="dark bold"></span></h4>-->
         <div class="boxes">
             <div class="row">
+                <div class="visible-xs"><br><br></div>
                 <div class="col-centered col-md-12">
                     <div class="  col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
-                        <a href="http://amonritz.com" target="_blank" class="about-icon">
-                            <i class="fa fa-film"></i>
+                        <a href="http://amonritz.com" target="_blank" class="about-icon red">
+                            <span class="amon"><i class="fa fa-film"></i></span>
                         </a>
                         <p class="about-head team-name">Amon Ritz</p>
                         <p class="light about-text">Produktion. Initiator. Kamera.</p>
@@ -187,7 +188,7 @@
                     <!-- Box 2 -->
                     <div class="col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
-                            <i class="fa fa-desktop"></i>
+                            <span class="dominik"><i class="fa"></i>
                         </a>
                         <p class="about-head team-name">Dominik John</p>
                         <p class="light about-text">Webdevelopment. Logistik.</p>
@@ -195,7 +196,7 @@
 
                     <div class="  col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
-                            <i class="fa fa-battery-full"></i>
+                            <span class="nik"><i class="fa"></i></span>
                         </a>
                         <p class="about-head team-name">Niklas Ludwig</p>
                         <p class="light about-text">Technische Leitung.</p>
@@ -203,7 +204,7 @@
 
                     <div class="  col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
-                            <i class="fa fa-music"></i>
+                            <span class="ferdi"><i class="fa"></i></span>
                         </a>
                         <p class="about-head team-name">Ferdinand Singhartinger</p>
                         <p class="light about-text">Musik. Autor.</p>
@@ -211,7 +212,7 @@
 
                     <div class="  col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
-                            <i class="fa fa-camera-retro"></i>
+                            <span class="alois"><i class="fa"></i></span>
                         </a>
                         <p class="about-head team-name">Alois Herrmann</p>
                         <p class="light about-text">Fotografie. Kamera.</p>
@@ -219,7 +220,7 @@
 
                     <div class="  col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
-                            <i class="fa fa-heart"></i>
+                            <span class="lilli"><i class="fa"></i></span>
                         </a>
                         <p class="about-head team-name">Lilli Biedermann</p>
                         <p class="light about-text">Schauspiel. Gesang.</p>
@@ -227,7 +228,7 @@
 
                     <div class="  col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
-                            <i class="fa fa-align-left"></i>
+                            <span class="anna"><i class="fa"></i></span>
                         </a>
                         <p class="about-head team-name">Anna Drózd</p>
                         <p class="light about-text">Schauspiel. Autorin.</p>
@@ -235,7 +236,7 @@
 
                     <div class="col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
-                            <i class="fa fa-cutlery "></i>
+                            <span class="josef"><i class="fa"></i></span>
                         </a>
                         <p class="about-head team-name">Josef Anetzberger</p>
                         <p class="light about-text">Best Boy. Catering.</p>
@@ -243,7 +244,7 @@
 
                     <div class="  col-xs-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
                         <a class="about-icon">
-                            <i class="fa fa-paint-brush"></i>
+                            <span class="mili"><i class="fa"></i></span>
                         </a>
                         <p class="about-head team-name">Emilia Jung</p>
                         <p class="light about-text">Maske. Location.</p>
