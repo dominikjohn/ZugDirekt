@@ -50,6 +50,9 @@
     .logo img {
         width: 20%;
     }
+    .about-box {
+        cursor: default;
+    }
 }
 
 .team-name {
