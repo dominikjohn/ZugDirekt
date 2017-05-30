@@ -18,7 +18,7 @@
     <div class="page_header_inner">
         <!-- Header -->
         <h1 class="fixed-text hometext condensed white bold t-center">
-		ZugDirekt-Sommerfest 2017
+		Sommerfest 2017
         </h1>
     </div>
 </section><!-- End Page Header -->
@@ -28,7 +28,7 @@
     <div class="inner contact">
 
         <!-- Header -->
-        <h1 class="header semibold white title">Kontakt</h1>
+        <h1 class="header semibold white title">Rückmeldung</h1>
 
         <!-- Description -->
         <h4 class="h-desc white contact-text"></h4>
@@ -41,20 +41,21 @@
                 <div class="col-xs-12 animated" data-animation="fadeInLeft" data-animation-delay="300">
                     <!-- Name -->
                     <input type="text" name="name" id="name" required="required" class="form light"
-                           placeholder="Name"/>
+                           placeholder="Mein Name"/>
                     <!-- Email -->
-                    <input type="email" name="mail" id="mail" required="required" class="form light"
-                           placeholder="Email-Adresse"/>
+                    <input type="hidden" name="mail" id="mail" required="required" class="form light"
+                           value="keine Email-Adresse"/>
                     <!-- Subject -->
                     <input type="text" name="subject" id="subject" required="required" class="form light"
                            placeholder="Betreff"/>
                 </div><!-- End Left Inputs -->
                 <!-- Right Inputs -->
-                <div class="col-xs-12 animated" data-animation="fadeInRight" data-animation-delay="300">
+                <!--<div class="col-xs-12 animated" data-animation="fadeInRight" data-animation-delay="300">
                     <!-- Message -->
                     <textarea name="message" id="message" class="form textarea light"
                               placeholder="Nachricht"></textarea>
-                </div><!-- End Right Inputs -->
+                </div>-->
+		<!-- End Right Inputs -->
                 <!-- Bottom Submit -->
                 <div class="relative fullwidth col-xs-12">
                     <!-- Send Button -->
