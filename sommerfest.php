@@ -14,6 +14,15 @@
 <?php include 'navbar.php'; ?>
 
 <!-- Page Header -->
+<section class="page_header container waypoint">
+    <div class="page_header_inner">
+        <!-- Header -->
+        <h1 class="fixed-text hometext condensed white bold t-center">
+		Sommerfest 2017
+        </h1>
+    </div>
+</section><!-- End Page Header -->
+
 <section id="contact" class="container" style="margin-top: -15px;">
     <!-- Contact Inner -->
     <div class="inner contact">
@@ -67,38 +76,10 @@
         </div><!-- End Contact Form Area -->
     </div><!-- End Inner -->
 </section><!-- End Contact Section -->
-	
-<script type="text/javascript">
-$('.btn-toggle').click(function() {
-    $(this).find('.btn').toggleClass('active');  
-    
-    if ($(this).find('.btn-primary').size()>0) {
-    	$(this).find('.btn').toggleClass('btn-primary');
-    }
-    if ($(this).find('.btn-danger').size()>0) {
-    	$(this).find('.btn').toggleClass('btn-danger');
-    }
-    if ($(this).find('.btn-success').size()>0) {
-    	$(this).find('.btn').toggleClass('btn-success');
-    }
-    if ($(this).find('.btn-info').size()>0) {
-    	$(this).find('.btn').toggleClass('btn-info');
-    }
-    
-    $(this).find('.btn').toggleClass('btn-default');
-       
-});
 
-$('form').submit(function(){
-	alert($(this["options"]).val());
-    return false;
-});    
-    
-</script>
 
 <?php include 'footer.php'; ?>
 
-    
 </body>
 
 </html>
