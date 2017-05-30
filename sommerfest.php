@@ -46,15 +46,15 @@
                     <input type="hidden" name="mail" id="mail" required="required" class="form light"
                            value="Keine Email-Adresse"/>
                     <!-- Subject -->
-                    <input type="text" name="subject" id="subject" required="required" class="form light"
-                           placeholder="Betreff"/>
+                    <input type="hidden" name="subject" id="subject" required="required" class="form light"
+                           value="Rückmeldung Sommerfest"/>
 		    <h4 style="color: #fff">Ich kann kommen:</h4>
 				<div class="btn-group" data-toggle="buttons">
-			<label class="btn btn-default active">
-				<input type="radio">Ja
+			<label class="btn-lg btn-default active">
+				<input type="radio" name="message" value="ja">Ja &nbsp; &nbsp;
 			</label>
-			<label class="btn btn-default">
-				<input type="radio">Nein
+			<label class="btn-lg btn-default">
+				<input type="radio" name="message" value="nein">Nein
 			</label>
       			</div>
                 </div><!-- End Left Inputs -->
@@ -67,6 +67,7 @@
                     <button type="submit" id="submit" name="submit" class="form-btn light">Feedback abschicken</button>
                 </div><!-- End Bottom Submit -->
                 <!-- Clear -->
+		    <br> 
 
                 <div class="clear"></div>
             </form>
