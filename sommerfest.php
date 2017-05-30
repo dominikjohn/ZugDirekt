@@ -48,16 +48,13 @@
                     <!-- Subject -->
                     <input type="text" name="subject" id="subject" required="required" class="form light"
                            placeholder="Betreff"/>
-		    <h4>Role</h4>
+		    <h4 style="color: #fff">Ich kann kommen:</h4>
 				<div class="btn-group" data-toggle="buttons">
 			<label class="btn btn-default active">
-				<input type="radio">None
+				<input type="radio">Ja
 			</label>
 			<label class="btn btn-default">
-				<input type="radio">User
-			</label>
-			<label class="btn btn-default">
-				<input type="radio">Manager
+				<input type="radio">Nein
 			</label>
       			</div>
                 </div><!-- End Left Inputs -->
