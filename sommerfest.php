@@ -51,10 +51,10 @@
 		    <h4 style="color: #fff">Ich kann kommen:</h4>
 				<div class="btn-group" data-toggle="buttons">
 			<label class="btn btn-default active">
-				<input type="radio" name="message" value="Ich kann kommen.">Ja &nbsp;
+				<input type="radio" name="message" value="YES.">Ja &nbsp;
 			</label>
 			<label class="btn btn-default">
-				<input type="radio" name="message" value="Ich kann nicht kommen.">Nein
+				<input type="radio" name="message" value="Ich kann NICHT kommen.">Nein
 			</label>
       			</div>
                 </div><!-- End Left Inputs -->
@@ -64,7 +64,7 @@
                 <div class="relative fullwidth col-xs-12">
                     <!-- Send Button -->
 			<br> 
-                    <button type="submit" id="submit" name="submit" class="form-btn light">Feedback abschicken</button>
+                    <button type="submit" id="submit" name="submit" class="form-btn light">Abschicken</button>
                 </div><!-- End Bottom Submit -->
                 <!-- Clear -->
 		    
@@ -86,7 +86,8 @@
 
 
 <?php include 'footer.php'; ?>
-
+<script>
+	</script>
 </body>
 
 </html>
