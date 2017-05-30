@@ -50,10 +50,10 @@
                            value="Rückmeldung Sommerfest"/>
 		    <h4 style="color: #fff">Ich kann kommen:</h4>
 				<div class="btn-group" data-toggle="buttons">
-			<label class="btn-lg btn-default active">
+			<label class="btn btn-default active">
 				<input type="radio" name="message">Ja &nbsp; &nbsp;
 			</label>
-			<label class="btn-lg btn-default">
+			<label class="btn btn-default">
 				<input type="radio" name="message">Nein
 			</label>
       			</div>
