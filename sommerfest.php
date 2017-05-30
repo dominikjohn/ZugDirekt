@@ -18,7 +18,7 @@
     <div class="page_header_inner">
         <!-- Header -->
         <h1 class="fixed-text hometext condensed white bold t-center">
-		Sommerfest 2017
+		ZugDirekt-Sommerfest 2017
         </h1>
     </div>
 </section><!-- End Page Header -->
@@ -38,7 +38,7 @@
             <!-- Form -->
             <form id="contact-us" method="post" action="php/mail.php">
                 <!-- Left Inputs -->
-                <div class="col-xs-6 animated" data-animation="fadeInLeft" data-animation-delay="300">
+                <div class="col-xs-12 animated" data-animation="fadeInLeft" data-animation-delay="300">
                     <!-- Name -->
                     <input type="text" name="name" id="name" required="required" class="form light"
                            placeholder="Name"/>
@@ -50,7 +50,7 @@
                            placeholder="Betreff"/>
                 </div><!-- End Left Inputs -->
                 <!-- Right Inputs -->
-                <div class="col-xs-6 animated" data-animation="fadeInRight" data-animation-delay="300">
+                <div class="col-xs-12 animated" data-animation="fadeInRight" data-animation-delay="300">
                     <!-- Message -->
                     <textarea name="message" id="message" class="form textarea light"
                               placeholder="Nachricht"></textarea>
@@ -58,7 +58,7 @@
                 <!-- Bottom Submit -->
                 <div class="relative fullwidth col-xs-12">
                     <!-- Send Button -->
-                    <button type="submit" id="submit" name="submit" class="form-btn light">Nachricht abschicken</button>
+                    <button type="submit" id="submit" name="submit" class="form-btn light">Feedback abschicken</button>
                 </div><!-- End Bottom Submit -->
                 <!-- Clear -->
 
