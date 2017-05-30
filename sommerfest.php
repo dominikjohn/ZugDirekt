@@ -51,10 +51,10 @@
 		    <h4 style="color: #fff">Ich kann kommen:</h4>
 				<div class="btn-group" data-toggle="buttons">
 			<label class="btn btn-default active">
-				<input type="radio" name="message">Ja &nbsp; &nbsp;
+				<input type="radio" name="message" value="Ich kann kommen.">Ja &nbsp;
 			</label>
 			<label class="btn btn-default">
-				<input type="radio" name="message">Nein
+				<input type="radio" name="message" value="Ich kann nicht kommen.">Nein
 			</label>
       			</div>
                 </div><!-- End Left Inputs -->
@@ -63,10 +63,11 @@
                 <!-- Bottom Submit -->
                 <div class="relative fullwidth col-xs-12">
                     <!-- Send Button -->
+			<br> 
                     <button type="submit" id="submit" name="submit" class="form-btn light">Feedback abschicken</button>
                 </div><!-- End Bottom Submit -->
                 <!-- Clear -->
-		    <br> 
+		    
 
                 <div class="clear"></div>
             </form>
