@@ -44,17 +44,27 @@
                            placeholder="Mein Name"/>
                     <!-- Email -->
                     <input type="hidden" name="mail" id="mail" required="required" class="form light"
-                           value="keine Email-Adresse"/>
+                           value="Keine Email-Adresse"/>
                     <!-- Subject -->
                     <input type="text" name="subject" id="subject" required="required" class="form light"
                            placeholder="Betreff"/>
                 </div><!-- End Left Inputs -->
                 <!-- Right Inputs -->
-                <!--<div class="col-xs-12 animated" data-animation="fadeInRight" data-animation-delay="300">
-                    <!-- Message -->
-                    <textarea name="message" id="message" class="form textarea light"
-                              placeholder="Nachricht"></textarea>
-                </div>-->
+		<div class="row">
+      			<h4>Role</h4>
+				<div class="btn-group" data-toggle="buttons">
+			<label class="btn btn-default active">
+				<input type="radio">None
+			</label>
+			<label class="btn btn-default">
+				<input type="radio">User
+			</label>
+			<label class="btn btn-default">
+				<input type="radio">Manager
+			</label>
+      			</div>
+		</div>
+                <input type="hidden" name="message" value="Keine Nachricht" />
 		<!-- End Right Inputs -->
                 <!-- Bottom Submit -->
                 <div class="relative fullwidth col-xs-12">
@@ -70,7 +80,7 @@
             <div class="mail-message-area">
                 <!-- Message -->
                 <div class="alert gray-bg mail-message not-visible-message">
-                    <strong>Vielen Dank!</strong> Die E-Mail wurde versendet.
+                    <strong>Vielen Dank!</strong> Die Rückmeldung wurde abgeschickt.
                 </div>
             </div>
 
