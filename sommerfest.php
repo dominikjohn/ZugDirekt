@@ -14,11 +14,18 @@
 <?php include 'navbar.php'; ?>
 
 <!-- Page Header -->
-<section class="page_header container waypoint">
-    <div class="page_header_inner">
+<section id="contact" class="container" style="margin-top: -15px;">
+    <!-- Contact Inner -->
+    <div class="inner contact">
+
         <!-- Header -->
-        <h1 class="fixed-text hometext condensed white bold t-center">
-            <div class="contact-form">
+        <h1 class="header semibold white title">Kontakt</h1>
+
+        <!-- Description -->
+        <h4 class="h-desc white contact-text"></h4>
+
+        <!-- Form Area -->
+        <div class="contact-form">
             <!-- Form -->
             <form id="contact-us" method="post" action="php/mail.php">
                 <!-- Left Inputs -->
@@ -26,21 +33,23 @@
                     <!-- Name -->
                     <input type="text" name="name" id="name" required="required" class="form light"
                            placeholder="Name"/>
+                    <!-- Email -->
+                    <input type="email" name="mail" id="mail" required="required" class="form light"
+                           placeholder="Email-Adresse"/>
                     <!-- Subject -->
-                  <h4>Ich kann kommen:</h4>
-                  <div class="btn-group btn-toggle" data-toggle="buttons">
-                      <label class="btn btn-success active">
-                        <input type="radio" name="options" value="ja"> Ja
-                      </label>
-                      <label class="btn btn-default">
-                        <input type="radio" name="options" value="nein" checked=""> Nein
-                      </label>
-                    </div>
+                    <input type="text" name="subject" id="subject" required="required" class="form light"
+                           placeholder="Betreff"/>
                 </div><!-- End Left Inputs -->
+                <!-- Right Inputs -->
+                <div class="col-xs-6 animated" data-animation="fadeInRight" data-animation-delay="300">
+                    <!-- Message -->
+                    <textarea name="message" id="message" class="form textarea light"
+                              placeholder="Nachricht"></textarea>
+                </div><!-- End Right Inputs -->
                 <!-- Bottom Submit -->
                 <div class="relative fullwidth col-xs-12">
                     <!-- Send Button -->
-                    <button type="submit" id="submit" name="submit" class="form-btn light">Rückmeldung abschicken</button>
+                    <button type="submit" id="submit" name="submit" class="form-btn light">Nachricht abschicken</button>
                 </div><!-- End Bottom Submit -->
                 <!-- Clear -->
 
@@ -56,27 +65,10 @@
             </div>
 
         </div><!-- End Contact Form Area -->
-        </h1>
-    </div>
-</section><!-- End Page Header -->
-
-
-<section id="shortcodes" class="container">
-    <!-- Pricing Tables -->
-    <div class="inner_s">
-
-        <!-- Two Column -->
-        <div class="t-left">
-            <div class="col-xs-12 mrg">
-
-            </div>
-            <div class="clear"></div>
-
-        </div>
-
-
-</section><!-- End Short Codes -->
-<script>
+    </div><!-- End Inner -->
+</section><!-- End Contact Section -->
+	
+<script type="text/javascript">
 $('.btn-toggle').click(function() {
     $(this).find('.btn').toggleClass('active');  
     
