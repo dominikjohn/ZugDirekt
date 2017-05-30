@@ -41,7 +41,7 @@
                 <div class="col-xs-12 animated" data-animation="fadeInLeft" data-animation-delay="300">
                     <!-- Name -->
                     <input type="text" name="name" id="name" required="required" class="form light"
-                           placeholder="Mein Name"/>
+                           placeholder="Mein Name" required />
                     <!-- Email -->
                     <input type="hidden" name="mail" id="mail" required="required" class="form light"
                            value="Keine Email-Adresse"/>
