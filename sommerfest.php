@@ -29,6 +29,7 @@
 
         <!-- Header -->
         <h1 class="header semibold white title">Rückmeldung zum ZugDirekt Sommerfest</h1>
+	    <br />
 	<h4 class="title white">27. Juni 2017, 20 Uhr</h4>
 	<h4 class="title white">Giesinger Bahnhofsplatz 1, 81539 München</h4>
         <!-- Description -->
