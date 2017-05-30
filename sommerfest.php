@@ -28,8 +28,9 @@
     <div class="inner contact">
 
         <!-- Header -->
-        <h1 class="header semibold white title">Rückmeldung</h1>
-
+        <h1 class="header semibold white title">Rückmeldung zum ZugDirekt Sommerfest</h1>
+	<h2 class="header semibold white title">27. Juni 2017, 20 Uhr</h2>
+	<h2 class="header semibold white title">Giesinger Bahnhofsplatz 1, 81539 München</h2>
         <!-- Description -->
         <h4 class="h-desc white contact-text"></h4>
 
@@ -51,7 +52,7 @@
 		    <h4 style="color: #fff">Ich kann kommen:</h4>
 				<div class="btn-group" data-toggle="buttons">
 			<label class="btn btn-default active">
-				<input type="radio" name="message" value="YES.">Ja &nbsp;
+				<input type="radio" name="message" value="YES, ich kann kommen.">Ja &nbsp;
 			</label>
 			<label class="btn btn-default">
 				<input type="radio" name="message" value="Ich kann NICHT kommen.">Nein
@@ -86,8 +87,6 @@
 
 
 <?php include 'footer.php'; ?>
-<script>
-	</script>
 </body>
 
 </html>
