@@ -48,10 +48,7 @@
                     <!-- Subject -->
                     <input type="text" name="subject" id="subject" required="required" class="form light"
                            placeholder="Betreff"/>
-                </div><!-- End Left Inputs -->
-                <!-- Right Inputs -->
-		<div class="row">
-      			<h4>Role</h4>
+		    <h4>Role</h4>
 				<div class="btn-group" data-toggle="buttons">
 			<label class="btn btn-default active">
 				<input type="radio">None
@@ -63,7 +60,8 @@
 				<input type="radio">Manager
 			</label>
       			</div>
-		</div>
+                </div><!-- End Left Inputs -->
+                <!-- Right Inputs -->
                 <input type="hidden" name="message" value="Keine Nachricht" />
 		<!-- End Right Inputs -->
                 <!-- Bottom Submit -->
