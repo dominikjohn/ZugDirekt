@@ -32,6 +32,7 @@
 	    <br />
 	<h4 class="title white">27. Juni 2017, 20 Uhr</h4>
 	<h4 class="title white">Giesinger Bahnhofsplatz 1, 81539 München</h4>
+	<h4 class="title white">Premiere <a href="zugdirekt.com/emmaturing">Emma Turing</a></h4>
         <!-- Description -->
         <h4 class="h-desc white contact-text"></h4>
 
@@ -46,17 +47,17 @@
                            placeholder="Mein Name" required />
                     <!-- Email -->
                     <input type="hidden" name="mail" id="mail" required="required" class="form light"
-                           value="Keine Email-Adresse"/>
+                           value="mail@zugdirekt.com"/>
                     <!-- Subject -->
                     <input type="hidden" name="subject" id="subject" required="required" class="form light"
                            value="Rückmeldung Sommerfest"/>
 		    <h4 style="color: #fff">Ich kann kommen:</h4>
 				<div class="btn-group" data-toggle="buttons">
 			<label class="btn btn-default active">
-				<input type="radio" name="message" value="YES, ich kann kommen." checked="checked">Ja &nbsp;
+				<input type="radio" name="message" value="YES, ich kann kommen. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet." checked="checked">Ja &nbsp;
 			</label>
 			<label class="btn btn-default">
-				<input type="radio" name="message" value="Ich kann NICHT kommen.">Nein
+				<input type="radio" name="message" value="Ich kann NICHT kommen. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.">Nein
 			</label>
       			</div>
                 </div><!-- End Left Inputs -->
