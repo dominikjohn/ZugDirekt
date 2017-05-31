@@ -32,7 +32,7 @@
 	    <br />
 	<h4 class="title white">27. Juni 2017, 20 Uhr</h4>
 	<h4 class="title white">Giesinger Bahnhofsplatz 1, 81539 München</h4>
-	<h4 class="title white">Premiere <a href="zugdirekt.com/emmaturing">Emma Turing</a></h4>
+	    <h4 class="title white">Premiere <i><a href="http://zugdirekt.com/emmaturing">Emma Turing</a></i></h4>
         <!-- Description -->
         <h4 class="h-desc white contact-text"></h4>
 
