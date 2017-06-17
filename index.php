@@ -26,7 +26,7 @@
                 <div class="hometexts">
                     <!-- Slide Texts -->
                     <ul class="fixed-text condensed" style="margin-bottom: 10px">
-                        <li class="hometext bold uppercase">ZugDirekt.</li>
+                        <li class="hometext bold uppercase">ZugDirekt</li>
                     </ul>
                 </div>
                 <!--<h1 class="fixed-text uppercase bold condensed">Home Of <span id="toswitch"
@@ -150,19 +150,32 @@
         <!-- Members -->
         <div class="team-members inner-details">
             <!-- Member -->
-            <div class="col-centered col-xs-8 col-sm-6 col-md-6 col-lg-6 member animated" data-animation="fadeInUp"
-                 data-animation-delay="200">
-                <div class="member-inner">
-                    <!-- Team Member Image -->
-                    <a class="team-image" href="smaek">
-                        <!-- Img -->
-                        <img src="images/photos/smaek.jpg" class="blackandwhite tocolor" alt=""/>
-                    </a>
-                </div> <!-- End Member Inner -->
-            </div><!-- End Member -->
+            <div class="col-centered col-md-8">
+                <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 member animated" data-animation="fadeInUp"
+                     data-animation-delay="200">
+                    <div class="member-inner">
+                        <!-- Team Member Image -->
+                        <a class="team-image" href="smaek">
+                            <!-- Img -->
+                            <img src="images/photos/smaek.jpg" class="blackandwhite tocolor" alt=""/>
+                        </a>
+                    </div> <!-- End Member Inner -->
+                </div><!-- End Member -->
 
+                <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 member animated" data-animation="fadeInUp"
+                     data-animation-delay="200">
+                    <div class="member-inner">
+                        <!-- Team Member Image -->
+                        <a class="team-image" href="openfireisnotallowed">
+                            <!-- Img -->
+                            <img src="images/photos/openfireisnotallowed.png" class="blackandwhite tocolor" alt=""/>
+                        </a>
+                    </div> <!-- End Member Inner -->
+                </div><!-- End Member -->
+            </div>
             <div class="clear"></div>
         </div><!-- End Members -->
+
     </div><!-- End Team Inner -->
 </section><!-- End Contact Section -->
 
