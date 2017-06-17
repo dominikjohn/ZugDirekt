@@ -18,7 +18,7 @@
     <div class="page_header_inner">
         <!-- Header -->
         <h1 class="fixed-text hometext condensed white bold t-center">
-		Sommerfest 2017
+            Sommerfest 2017
         </h1>
     </div>
 </section><!-- End Page Header -->
@@ -29,10 +29,10 @@
 
         <!-- Header -->
         <h1 class="header semibold white title">Rückmeldung zum ZugDirekt Sommerfest</h1>
-	    <br />
-	<h4 class="title white">27. Juni 2017, 20 Uhr</h4>
-	<h4 class="title white">Giesinger Bahnhofsplatz 1, 81539 München</h4>
-	    <h4 class="title white">Premiere <i><a href="http://zugdirekt.com/emmaturing">Emma Turing</a></i></h4>
+        <br/>
+        <h4 class="title white">27. Juni 2017, 20 Uhr</h4>
+        <h4 class="title white">Giesinger Bahnhofsplatz 1, 81539 München</h4>
+        <h4 class="title white">Premiere <i><a href="http://zugdirekt.com/emmaturing">Emma Turing</a></i></h4>
         <!-- Description -->
         <h4 class="h-desc white contact-text"></h4>
 
@@ -44,34 +44,34 @@
                 <div class="col-xs-12 animated" data-animation="fadeInLeft" data-animation-delay="300">
                     <!-- Name -->
                     <input type="text" name="name" id="name" required="required" class="form light"
-                           placeholder="Mein Name" required />
+                           placeholder="Mein Name" required/>
                     <!-- Email -->
                     <input type="hidden" name="mail" id="mail" required="required" class="form light"
-                           value="mail@zugdirekt.com"/>
+                           value="amon.ritz@zugdirekt.com"/>
+                    <input type="hidden" name="subject" id="mail" required="required" class="form light"
+                           value="Sommerfest-Rueckmeldung"/>
                     <!-- Subject -->
                     <input type="hidden" name="subject" id="subject" required="required" class="form light"
                            value="Rückmeldung Sommerfest"/>
-		    <h4 style="color: #fff">Ich kann kommen:</h4>
-				<div class="btn-group" data-toggle="buttons">
-			<label class="btn btn-default active">
-				<input type="radio" name="message" value="YES, ich kann kommen. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet." checked="checked">Ja &nbsp;
-			</label>
-			<label class="btn btn-default">
-				<input type="radio" name="message" value="Ich kann NICHT kommen. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.">Nein
-			</label>
-      			</div>
+                    <h4 style="color: #fff">Ich kann kommen:</h4>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-default active">
+                            <input type="radio" name="message" value="YES, ich kann kommen." checked="checked">Ja &nbsp;
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" name="message" value="Ich kann NICHT kommen.">Nein
+                        </label>
+                    </div>
                 </div><!-- End Left Inputs -->
                 <!-- Right Inputs -->
-		<!-- End Right Inputs -->
+                <!-- End Right Inputs -->
                 <!-- Bottom Submit -->
                 <div class="relative fullwidth col-xs-12">
                     <!-- Send Button -->
-			<br> 
+                    <br>
                     <button type="submit" id="submit" name="submit" class="form-btn light">Abschicken</button>
                 </div><!-- End Bottom Submit -->
                 <!-- Clear -->
-		    
-
                 <div class="clear"></div>
             </form>
 
