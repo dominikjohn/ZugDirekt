@@ -26,7 +26,7 @@ $mail->Password = "y{r6X_ma@MMd9Vm;";                             // SMTP passwo
 $mail->Port = 587;                                      // SMTP Port
 $mail->AddReplyTo($email);
 $mail->From = "mail@zugdirekt.com";                 // SMTP username
-$mail->AddAddress("mail@zugdirekt.com");                 // Your Adress
+$mail->AddAddress("mail@zugdirekt.com");                 // Your Address
 $mail->Subject = "[Kontaktformular] " . $name . ": " . $subject;
 $mail->IsHTML(true);
 $mail->CharSet = 'UTF-8';

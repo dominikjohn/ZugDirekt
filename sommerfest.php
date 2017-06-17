@@ -43,16 +43,13 @@
                 <!-- Left Inputs -->
                 <div class="col-xs-12 animated" data-animation="fadeInLeft" data-animation-delay="300">
                     <!-- Name -->
-                    <input type="text" name="name" id="name" required="required" class="form light"
-                           placeholder="Mein Name" required/>
-                    <!-- Email -->
-                    <input type="hidden" name="mail" id="mail" required="required" class="form light"
-                           value="amon.ritz@zugdirekt.com"/>
-                    <input type="hidden" name="subject" id="mail" required="required" class="form light"
-                           value="Sommerfest-Rueckmeldung"/>
-                    <!-- Subject -->
-                    <input type="hidden" name="subject" id="subject" required="required" class="form light"
-                           value="Rückmeldung Sommerfest"/>
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" class="form light"
+                               placeholder="Mein Name" required/>
+                        <!-- Email -->
+                    </div>
+                    <input type="hidden" name="mail" value="amon.ritz@zugdirekt.com"/>
+                    <input type="hidden" name="subject" value="Sommerfest-Rueckmeldung"/>
                     <h4 style="color: #fff">Ich kann kommen:</h4>
                     <div class="btn-group" data-toggle="buttons">
                         <label class="btn btn-default active">
