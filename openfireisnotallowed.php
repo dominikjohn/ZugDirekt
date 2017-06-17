@@ -30,17 +30,23 @@
     <div class="inner_s">
 
         <div class="cont visible-xs">
-            <img src="images/photos/smaek/smaek7.jpg" width="100%">
+            <img src="images/photos/openfireisnotallowed/open_fire_is_not_allowed_1-min.png" width="100%">
             <br><br><br>
-            <img src="images/photos/smaek/smaek1.jpg" width="100%">
+            <img src="images/photos/openfireisnotallowed/open_fire_is_not_allowed_2-min.png" width="100%">
             <br><br><br>
-            <img src="images/photos/smaek/smaek3.jpg" width="100%">
+            <img src="images/photos/openfireisnotallowed/open_fire_is_not_allowed_3-min.png" width="100%">
             <br><br><br>
-            <img src="images/photos/smaek/smaek4.jpg" width="100%">
+            <img src="images/photos/openfireisnotallowed/open_fire_is_not_allowed_4-min.png" width="100%">
             <br><br><br>
-            <img src="images/photos/smaek/smaek5.jpg" width="100%">
+            <img src="images/photos/openfireisnotallowed/open_fire_is_not_allowed_5-min.png" width="100%">
             <br><br><br>
-            <img src="images/photos/smaek/smaek2.jpg" width="100%">
+            <img src="images/photos/openfireisnotallowed/open_fire_is_not_allowed_6-min.png" width="100%">
+            <br><br><br>
+            <img src="images/photos/openfireisnotallowed/open_fire_is_not_allowed_7-min.png" width="100%">
+            <br><br><br>
+            <img src="images/photos/openfireisnotallowed/open_fire_is_not_allowed_9-min.png" width="100%">
+            <br><br><br>
+            <img src="images/photos/openfireisnotallowed/open_fire_is_not_allowed_11-min.png" width="100%">
             <br><br><br>
         </div>
 

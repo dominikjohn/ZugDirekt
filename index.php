@@ -143,7 +143,7 @@
     <!-- Contact Inner -->
     <div class="inner team">
         <!--  DeHeader -->
-        <h1 class="header semibold title">Fotoprojekte</h1>
+        <h1 class="header semibold title">Fotoprojekte.</h1>
 
         <!--scription -->
         <h4 class="">Fast so toll wie Filme. Aber nur fast.<span class="dark bold"></span></h4>
@@ -151,7 +151,7 @@
         <div class="team-members inner-details">
             <!-- Member -->
             <div class="col-centered col-md-8">
-                <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 member animated" data-animation="fadeInUp"
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 member animated" data-animation="fadeInUp"
                      data-animation-delay="200">
                     <div class="member-inner">
                         <!-- Team Member Image -->
@@ -162,7 +162,7 @@
                     </div> <!-- End Member Inner -->
                 </div><!-- End Member -->
 
-                <div class="col-xs-8 col-sm-6 col-md-6 col-lg-6 member animated" data-animation="fadeInUp"
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 member animated" data-animation="fadeInUp"
                      data-animation-delay="200">
                     <div class="member-inner">
                         <!-- Team Member Image -->
