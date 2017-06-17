@@ -21,6 +21,7 @@
         </h1>
         <!-- Description -->
         <p class="light t-center">
+            Italien 2017
         </p>
     </div>
 </section><!-- End Page Header -->
