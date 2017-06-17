@@ -26,7 +26,7 @@
                 <div class="hometexts">
                     <!-- Slide Texts -->
                     <ul class="fixed-text condensed" style="margin-bottom: 10px">
-                        <li class="hometext bold uppercase">ZugDirekt</li>
+                        <li class="hometext bold uppercase">ZugDirekt.</li>
                     </ul>
                 </div>
                 <!--<h1 class="fixed-text uppercase bold condensed">Home Of <span id="toswitch"
