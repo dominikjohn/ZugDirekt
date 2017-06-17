@@ -13,13 +13,21 @@
 <?php include 'navbar.php'; ?>
 
 <?php
-$api_key = 'AIzaSyAwIo8s86R20v2av6pl-Qh1uwCmcPrTZcI';
-$video_id = 'null';
 
-/*$JSON = file_get_contents("https://www.googleapis.com/youtube/v3/videos?part=statistics&id=" . $video_id . "&key=" . $api_key);
-$json_data = json_decode($JSON, true);
-$view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
-*/
+$api_key = 'AIzaSyAwIo8s86R20v2av6pl-Qh1uwCmcPrTZcI';
+//$video_id = 'G_PMAh0XHjg';
+//
+//$JSON = file_get_contents("https://www.googleapis.com/youtube/v3/videos?part=statistics&id=" . $video_id . "&key=" . $api_key);
+//$json_data = json_decode($JSON, true);
+//
+//$views = $json_data['items'][0]['statistics']['viewCount'];
+//if ($views > 4121) {
+//    $k_option = true;
+//    $views = floor($views / 1000);
+//} else {
+//    $k_option = false;
+//}
+
 $begin = strtotime("01.10.2016");
 $release = strtotime("27.06.2017");
 $now = time();

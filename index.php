@@ -143,7 +143,7 @@
     <!-- Contact Inner -->
     <div class="inner team">
         <!--  DeHeader -->
-        <h1 class="header semibold title">Fotoprojekte.</h1>
+        <h1 class="header semibold title">Fotoprojekte</h1>
 
         <!--scription -->
         <h4 class="">Fast so toll wie Filme. Aber nur fast.<span class="dark bold"></span></h4>
