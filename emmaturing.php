@@ -44,7 +44,6 @@ if ($views > 4121) {
     </div>
 </section><!-- End Page Header -->
 
-
 <section id="shortcodes" class="container">
     <!-- Pricing Tables -->
     <div class="inner_s gray2">
@@ -56,9 +55,9 @@ if ($views > 4121) {
                     <i class="fa fa-users" style="color: lightgrey"></i>
                 </a>
 
-                <div class="fact-number" data-perc="10">
+                <div class="fact-number">
 
-                    <h1 class="factor"></h1>
+                    <h1 class="factor">10</h1>
 
                     <h3 class="light uppercase">Beteiligte<br/> Personen</h3>
                 </div>
@@ -70,9 +69,8 @@ if ($views > 4121) {
                     <i class="fa fa-music" style="color: rgb(234, 104, 118)"></i>
                 </a>
 
-                <div class="fact-number" data-perc="6">
-
-                    <h1 class="factor light"></h1>
+                <div class="fact-number">
+                    <h1 class="factor light">6</h1>
 
                     <h3 class="light uppercase">komponierte & produzierte Musikstücke</h3>
                 </div>
@@ -85,9 +83,9 @@ if ($views > 4121) {
                     <i class="fa fa-calendar-o" style="color: lightblue"></i>
                 </a>
 
-                <div class="fact-number" data-perc="10">
+                <div class="fact-number">
 
-                    <h1 class="factor light"></h1>
+                    <h1 class="factor light">10</h1>
 
                     <h3 class="light uppercase">Drehtage</h3>
                 </div>
@@ -96,13 +94,12 @@ if ($views > 4121) {
             <div class="col-xs-3 fact mrg">
 
                 <a class="fact-icon" href="<?php echo 'http://youtube.com/watch?v=' . $video_id ?>" target="_blank">
-
                     <i class="fa fa-play" style="color: lightcoral"></i>
                 </a>
 
-                <div class="fact-number" data-perc="<?php echo $views; ?>">
+                <div class="fact-number">
 
-                    <h1 class="factor light"></h1>
+                    <h1 class="factor light"><?php echo $views; ?></h1>
                     <h1 class="suffix light"><?php echo $k_option ? 'k' : '' ?></h1>
 
                     <h3 class="light uppercase">YouTube-Aufrufe</h3>
