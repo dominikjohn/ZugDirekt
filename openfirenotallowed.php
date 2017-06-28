@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="utf-8"/>
-    <title>ZugDirekt | SMAEK</title>
+    <title>ZugDirekt | Open Fire Not Allowed</title>
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
     <?php include 'imports.php' ?>
@@ -17,7 +17,7 @@
     <div class="page_header_inner">
         <!-- Header -->
         <h1 class="fixed-text hometext condensed uppercase white bold t-center">
-            Open Fire Is Not Allowed
+            Open Fire Not Allowed
         </h1>
         <!-- Description -->
         <p class="light t-center">

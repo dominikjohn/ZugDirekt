@@ -29,6 +29,7 @@
                     <!-- DropDown Menu -->
                     <ul class="dropdown-menu uppercase gray-border">
                         <li><a href="smaek">SMAEK</a></li>
+                        <li><a href="openfirenotallowed">OFNA</a></li>
                     </ul><!-- End DropDown Menu -->
                 </li>
                 <li><a href="index.php#team" class="scroll">team</a></li>

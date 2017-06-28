@@ -123,9 +123,8 @@ if ($views > 4121) {
 
             <div class="col-xs-6 mrg">
                 <h4 class="semibold dark condensed uppercase t-left">Beschreibung</h4>
-                <br>
                 <p>Emma ist fest davon überzeugt, dass sie von ihren echten Eltern mit 3 Jahren auf der Erde abgesetzt
-                    worden ist.</p>
+                    worden ist. </p>
             </div>
 
             <br>
