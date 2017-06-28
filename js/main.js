@@ -15,6 +15,8 @@ $(document).ready(function () {
         $(this).addClass('btn-tab-active');
     });
 
+    $('.factor').animate({opacity: '1'}, 2000);
+
 });
 
 function flickerLight() {

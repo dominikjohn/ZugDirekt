@@ -77,7 +77,7 @@ if ($views > 4121) {
 
                     <div class="fact-number" data-perc="4">
 
-                        <h1 class="factor"></h1>
+                        <h1 class="factor nodisplay">4</h1>
 
                         <h3 class="light uppercase">Beteiligte<br/> Personen</h3>
                     </div>
@@ -89,9 +89,9 @@ if ($views > 4121) {
                         <i class="fa fa-rocket" style="color: lightgoldenrodyellow"></i>
                     </a>
 
-                    <div class="fact-number" data-perc="<?php echo $distance ?>">
+                    <div class="fact-number" data-perc="">
 
-                        <h1 class="factor light"></h1>
+                        <h1 class="factor light nodisplay"><?php echo $distance ?></h1>
 
                         <h3 class="light uppercase">Mio. km aktuelle Distanz zum Mars</h3>
                     </div>
@@ -106,7 +106,7 @@ if ($views > 4121) {
 
                     <div class="fact-number" data-perc="1">
 
-                        <h1 class="factor light"></h1>
+                        <h1 class="factor light nodisplay">1</h1>
 
                         <h3 class="light uppercase">Drehtag</h3>
                     </div>
@@ -122,9 +122,10 @@ if ($views > 4121) {
 
                     <div class="fact-number" data-perc="<?php echo $views; ?>">
 
-                        <h1 class="factor light"></h1>
-                        <h1 class="suffix light"><?php echo $k_option ? 'k' : '' ?></h1>
-
+                        <div class="factor nodisplay">
+                            <h1 class="factor light nodisplay"><?php echo $views; ?></h1>
+                            <h1 class="suffix light"><?php echo $k_option ? 'k' : '' ?></h1>
+                        </div>
                         <h3 class="light uppercase">YouTube-Aufrufe</h3>
                     </div>
                 </div>

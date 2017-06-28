@@ -66,7 +66,7 @@ $kha = round($ha / 1000);
                     <!-- Factor Area -->
                     <div class="fact-number" data-perc="7">
                         <!-- Factor -->
-                        <h1 class="factor"></h1>
+                        <h1 class="factor nodisplay">7</h1>
                         <!-- Factor Description -->
                         <h3 class="light uppercase">Interviews</h3>
                     </div><!-- End Factor Area -->
@@ -83,7 +83,7 @@ $kha = round($ha / 1000);
                     <!-- Factor Area -->
                     <div class="fact-number" data-perc="142">
                         <!-- Factor -->
-                        <h1 class="factor light"></h1>
+                        <h1 class="factor light nodisplay">142</h1>
                         <!-- Factor Description -->
                         <h3 class="light uppercase">Minuten<br/> Konzentration vor der Kamera</h3>
                     </div><!-- End Factor Area -->
@@ -98,7 +98,7 @@ $kha = round($ha / 1000);
                     <!-- Factor Area -->
                     <div class="fact-number" data-perc="<?php echo $kha ?>">
                         <!-- Factor -->
-                        <h1 class="factor light"></h1>
+                        <h1 class="factor light nodisplay"><?php echo $kha ?></h1>
                         <h1 class="suffix light"></h1>
                         <!-- Factor Description -->
                         <h3 class="light uppercase">* 1000 Hektar Regenwaldverlust seit Videoupload</h3>
@@ -116,8 +116,10 @@ $kha = round($ha / 1000);
                     <!-- Factor Area -->
                     <div class="fact-number" data-perc="<?php echo $views; ?>">
                         <!-- Factor -->
-                        <h1 class="factor light"></h1>
-                        <h1 class="suffix light"><?php echo $k_option ? 'k' : '' ?></h1>
+                        <div class="factor nodisplay">
+                            <h1 class="factor light nodisplay"><?php echo $views; ?></h1>
+                            <h1 class="suffix light"><?php echo $k_option ? 'k' : '' ?></h1>
+                        </div>
                         <!-- Factor Description -->
                         <h3 class="light uppercase">YouTube-Aufrufe</h3>
                     </div><!-- End Factor Area -->

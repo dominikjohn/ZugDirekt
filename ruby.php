@@ -29,7 +29,7 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
         <!-- Header -->
         <h1 class="fixed-text hometext condensed uppercase white bold t-center">
             Ruby
-        </h1> 
+        </h1>
         <!-- Description -->
         <p class="light t-center">
             Ein Kurzfilm.
@@ -51,9 +51,9 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
                         <i class="fa fa-users" style="color: lightgray"></i>
                     </a>
                     <!-- Factor Area -->
-                    <div class="fact-number" data-perc="21">
+                    <div class="fact-number">
                         <!-- Factor -->
-                        <h1 class="factor"></h1>
+                        <h1 class="factor nodisplay">21</h1>
                         <!-- Factor Description -->
                         <h3 class="light uppercase">Beteiligte<br/> Personen</h3>
                     </div><!-- End Factor Area -->
@@ -68,9 +68,9 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
                         <i class="fa fa-calendar-o"></i>
                     </a>
                     <!-- Factor Area -->
-                    <div class="fact-number" data-perc="10">
+                    <div class="fact-number">
                         <!-- Factor -->
-                        <h1 class="factor light"></h1>
+                        <h1 class="factor light nodisplay">10</h1>
                         <!-- Factor Description -->
                         <h3 class="light uppercase">Monate<br/> Produktions-<br/>zeitraum</h3>
                     </div><!-- End Factor Area -->
@@ -83,9 +83,9 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
                         <i class="fa fa-clock-o"></i>
                     </a>
                     <!-- Factor Area -->
-                    <div class="fact-number" data-perc="215">
+                    <div class="fact-number">
                         <!-- Factor -->
-                        <h1 class="factor light"></h1>
+                        <h1 class="factor light nodisplay">215</h1>
                         <!-- Factor Description -->
                         <h3 class="light uppercase">Minuten<br> Rohmaterial</h3>
                     </div><!-- End Factor Area -->
@@ -100,10 +100,12 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
                         <i class="fa fa-play" style="color: lightcoral"></i>
                     </a>
                     <!-- Factor Area -->
-                    <div class="fact-number" data-perc="<?php echo $view_count; ?>">
+                    <div class="fact-number">
                         <!-- Factor -->
-                        <h1 class="factor light"></h1>
-                        <h1 class="suffix light">k</h1>
+                        <div class="factor nodisplay">
+                            <h1 class="factor light"><?php echo $view_count; ?></h1>
+                            <h1 class="suffix light">k</h1>
+                        </div>
                         <!-- Factor Description -->
                         <h3 class="light uppercase">YouTube-Aufrufe</h3>
                     </div><!-- End Factor Area -->
@@ -140,8 +142,8 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
                 <!-- Tab Content -->
                 <div class="tab-content">
                     <div class="tab-pane active" id="home">
-                        Laudatio der Jury der 39. Filmtage der Bayrischen Schulen: 
-                            <br/><br/>
+                        Laudatio der Jury der 39. Filmtage der Bayrischen Schulen:
+                        <br/><br/>
                         Sie ist echt anders drauf: steht auf Programmieren, Schrauben und Löten. Klar, dass außer dem
                         Klassen-Nerd keiner viel mit ihr zu tun haben will. Nur wenn mal das Smartphone zickt, kann man
                         sie gebrauchen. Doch Ruby sollte keiner unterschätzen. Sie schreibt ihren eigenen Code und hackt
@@ -149,20 +151,19 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
                         Message liest sie mit und beginnt schon nach kurzer Zeit, Gott zu spielen. Delikate Clips werden
                         gepostet, Beziehungen gehen in die Brüche, keiner traut mehr dem anderen, alles gerät ins
                         Rutschen. Nur Ruby hängt mitten drin fest auf der Rutsche ihres Lebens.
-                            <br/><br/>
+                        <br/><br/>
                         In unglaublich eindringlichen Bildern erzählen die Filmemacher die vielschichtige Story des
                         hochbegabten Mädchens, das sich am Ende in seiner Zerstörungslust findet. Herausragendes
                         Schauspiel, technische Perfektion und eine professionelle filmische Haltung lassen nur eine
                         Diagnose zu: schwer preisverdächtig.
-                            <br/><br/>
+                        <br/><br/>
                         Die Filmgruppe erhält den Förderpreis des Staatsminister für Bildung und Kultus, Wissenschaft
                         und Kunst, Dr. Ludwig Spaenle und den undotierten Zuschauerpreis.
-                            <br/><br/>
+                        <br/><br/>
                         Gerbrunn, 16. Oktober 2016
-                            <br/><br/>
-                        <a href="http://www.filmtage-bayerischer-schulen.de" target="_blank" style="color: #000000">zur Festivalseite</a>
-                        
-
+                        <br/><br/>
+                        <a href="http://www.filmtage-bayerischer-schulen.de" target="_blank" style="color: #000000">zur
+                            Festivalseite</a>
 
 
                     </div>
@@ -170,7 +171,7 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
                     <div class="tab-pane" id="profile">
                         RUBY Gewinnt bei dem Festival "Flimmern & Rauschen 2017" den Münchner Jugendfilmpreis in der
                         Kategorie der 17 bis 21 Jährigen.
-                            <br/><br/>
+                        <br/><br/>
                         Die Laudatio:<br/>
                         Der Außenseiterin Ruby sind „Computer lieber als Menschen“. Sie mag ihr Dasein als Nerd und dass
                         sie von allen in Ruhe gelassen wird. Als sie die Gelegenheit bekommt, sich in die Handys ihrer
@@ -182,7 +183,7 @@ $view_count = floor($json_data['items'][0]['statistics']['viewCount'] / 1000);
                         geschwungen. Dank der tollen und sehr eigenen Bildsprache, der guten Darsteller und nicht
                         zuletzt der passenden Musik ist RUBY ein überaus gelungener Film, der einen Preis mehr als
                         verdient hat.
-                            <br/><br/>
+                        <br/><br/>
                         RUBY ist nominiert für das Bayrische Kinder & Jugend Filmfestival 2018 in Roth.
                     </div>
                 </div>

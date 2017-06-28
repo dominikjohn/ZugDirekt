@@ -6,10 +6,16 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 
 /* CUSTOM STUFF */
+
+.nodisplay {
+    opacity: 0;
+}
+
 @media only screen and (min-width: 0px) {
     .logo img {
         width: 30%;
     }
+
     .about-box {
         cursor: pointer;
     }
@@ -20,6 +26,7 @@
     .logo img {
         width: 30%;
     }
+
     .about-box {
         cursor: pointer;
     }
@@ -30,6 +37,7 @@
     .logo img {
         width: 24%;
     }
+
     .about-box {
         cursor: pointer;
     }
@@ -40,6 +48,7 @@
     .logo img {
         width: 23%;
     }
+
     .about-box {
         cursor: pointer;
     }
@@ -50,6 +59,7 @@
     .logo img {
         width: 20%;
     }
+
     .about-box {
         cursor: default;
     }
@@ -1228,7 +1238,6 @@ ul.dropdown-menu li a:hover {
 .about-box:hover .about-icon .mili i {
     color: #916343;
 }
-
 
 .about-box .about-head {
     margin: 30px auto 10px;
@@ -2775,7 +2784,6 @@ ul.tables li.pricing-table {
 .open-map #google-map {
     opacity: 1;
 }
-
 
 /* Contact */
 

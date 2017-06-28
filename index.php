@@ -180,44 +180,44 @@
 
 <!---->
 <!--<section id="print" class="container waypoint">-->
-<!--    <!-- Contact Inner -->-->
+<!--    <!-- Contact Inner -->
 <!--    <div class="inner team">-->
-<!--        <!--  DeHeader -->-->
+<!--        <!--  DeHeader -->
 <!--        <h1 class="header semibold title">Print</h1>-->
 <!---->
-<!--        <!--scription -->-->
+<!--        <!--scription -->
 <!--        <h4 class="">Fast so toll wie Filme. Aber nur fast.<span class="dark bold"></span></h4>-->
-<!--        <!-- Members -->-->
+<!--        <!-- Members -->
 <!--        <div class="team-members inner-details">-->
-<!--            <!-- Member -->-->
+<!--            <!-- Member -->
 <!--            <div class="col-centered col-md-8">-->
 <!--                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 member animated" data-animation="fadeInUp"-->
 <!--                     data-animation-delay="200">-->
 <!--                    <div class="member-inner">-->
-<!--                        <!-- Team Member Image -->-->
+<!--                        <!-- Team Member Image -->
 <!--                        <a class="team-image" href="smaek">-->
-<!--                            <!-- Img -->-->
+<!--                            <!-- Img -->
 <!--                            <img src="images/photos/smaek.jpg" class="blackandwhite tocolor" alt=""/>-->
 <!--                        </a>-->
-<!--                    </div> <!-- End Member Inner -->-->
-<!--                </div><!-- End Member -->-->
+<!--                    </div> <!-- End Member Inner -->
+<!--                </div><!-- End Member -->
 <!---->
 <!--                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 member animated" data-animation="fadeInUp"-->
 <!--                     data-animation-delay="200">-->
 <!--                    <div class="member-inner">-->
-<!--                        <!-- Team Member Image -->-->
+<!--                        <!-- Team Member Image -->
 <!--                        <a class="team-image" href="openfireisnotallowed">-->
-<!--                            <!-- Img -->-->
+<!--                            <!-- Img -->
 <!--                            <img src="images/photos/openfireisnotallowed.png" class="blackandwhite tocolor" alt=""/>-->
 <!--                        </a>-->
-<!--                    </div> <!-- End Member Inner -->-->
-<!--                </div><!-- End Member -->-->
+<!--                    </div> <!-- End Member Inner -->
+<!--                </div><!-- End Member -->
 <!--            </div>-->
 <!--            <div class="clear"></div>-->
-<!--        </div><!-- End Members -->-->
+<!--        </div><!-- End Members -->
 <!---->
-<!--    </div><!-- End Team Inner -->-->
-<!--</section><!-- End Contact Section -->-->
+<!--    </div><!-- End Team Inner -->
+<!--</section><!-- End Contact Section -->
 
 
 <section id="team" class="container parallax5">
