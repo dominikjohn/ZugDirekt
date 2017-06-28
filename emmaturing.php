@@ -39,7 +39,7 @@ if ($views > 4121) {
         </h1>
         <!-- Description -->
         <p class="light t-center">
-            Ein Kurzfilm.
+            Kurzfilm, München, 2017
         </p>
     </div>
 </section><!-- End Page Header -->

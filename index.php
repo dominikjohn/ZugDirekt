@@ -54,12 +54,11 @@
     <!-- Team Inner -->
     <div class="inner team">
         <!--  DeHeader -->
-        <h1 class="header semibold dark title">Das neueste Projekt</h1>
+        <h1 class="header semibold dark title">Emma Turing</h1>
 
-        <!--scription -->
-        <!--        <h4 class="dark">Das neueste Projekt<span class="dark bold"></span>-->
-        <!--        </h4>-->
-        <!-- Members -->
+        <h4 class="dark">Kurzfilm, München, 2017<span class="dark bold"></span>
+        </h4>
+
         <div class="team-members inner-details">
             <!-- Member -->
             <div class="col-xs-6 col-lg-7 col-centered member animated" data-animation="fadeInUp"
