@@ -54,7 +54,7 @@
     <!-- Team Inner -->
     <div class="inner team">
         <!--  DeHeader -->
-        <h1 class="header semibold dark title">Upcoming: Emma Turing</h1>
+        <h1 class="header semibold dark title">Das neueste Projekt</h1>
 
         <!--scription -->
         <h4 class="dark">Vorschau zum neuesten Projekt<span class="dark bold"></span>
@@ -80,7 +80,7 @@
     <!-- Contact Inner -->
     <div class="inner team">
         <!--  DeHeader -->
-        <h1 class="header semibold white title">Filmprojekte</h1>
+        <h1 class="header semibold white title">Film</h1>
 
         <!--scription -->
         <h4 class="white">Hintergrundinformationen. Videos. Fotos. Texte.<span class="dark bold"></span></h4>
@@ -143,7 +143,7 @@
     <!-- Contact Inner -->
     <div class="inner team">
         <!--  DeHeader -->
-        <h1 class="header semibold title">Fotoprojekte</h1>
+        <h1 class="header semibold title">Foto</h1>
 
         <!--scription -->
         <h4 class="">Fast so toll wie Filme. Aber nur fast.<span class="dark bold"></span></h4>
@@ -178,6 +178,47 @@
 
     </div><!-- End Team Inner -->
 </section><!-- End Contact Section -->
+
+<section id="print" class="container waypoint">
+    <!-- Contact Inner -->
+    <div class="inner team">
+        <!--  DeHeader -->
+        <h1 class="header semibold title">Print</h1>
+
+        <!--scription -->
+        <h4 class="">Fast so toll wie Filme. Aber nur fast.<span class="dark bold"></span></h4>
+        <!-- Members -->
+        <div class="team-members inner-details">
+            <!-- Member -->
+            <div class="col-centered col-md-8">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 member animated" data-animation="fadeInUp"
+                     data-animation-delay="200">
+                    <div class="member-inner">
+                        <!-- Team Member Image -->
+                        <a class="team-image" href="smaek">
+                            <!-- Img -->
+                            <img src="images/photos/smaek.jpg" class="blackandwhite tocolor" alt=""/>
+                        </a>
+                    </div> <!-- End Member Inner -->
+                </div><!-- End Member -->
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 member animated" data-animation="fadeInUp"
+                     data-animation-delay="200">
+                    <div class="member-inner">
+                        <!-- Team Member Image -->
+                        <a class="team-image" href="openfireisnotallowed">
+                            <!-- Img -->
+                            <img src="images/photos/openfireisnotallowed.png" class="blackandwhite tocolor" alt=""/>
+                        </a>
+                    </div> <!-- End Member Inner -->
+                </div><!-- End Member -->
+            </div>
+            <div class="clear"></div>
+        </div><!-- End Members -->
+
+    </div><!-- End Team Inner -->
+</section><!-- End Contact Section -->
+
 
 
 <section id="team" class="container parallax5">
