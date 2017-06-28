@@ -54,11 +54,11 @@
     <!-- Team Inner -->
     <div class="inner team">
         <!--  DeHeader -->
-        <h1 class="header semibold dark title">Emma Turing</h1>
+        <h1 class="header semibold dark title">Das neueste Projekt</h1>
 
         <!--scription -->
-        <h4 class="dark">Das neueste Projekt<span class="dark bold"></span>
-        </h4>
+<!--        <h4 class="dark">Das neueste Projekt<span class="dark bold"></span>-->
+<!--        </h4>-->
         <!-- Members -->
         <div class="team-members inner-details">
             <!-- Member -->
