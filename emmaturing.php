@@ -119,9 +119,19 @@ if ($views > 4121) {
             </div>
 
             <div class="col-xs-6 mrg">
-                <h4 class="semibold dark condensed uppercase t-left">Beschreibung</h4>
-                <p>Emma ist fest davon überzeugt, dass sie von ihren echten Eltern mit 3 Jahren auf der Erde abgesetzt
-                    worden ist. </p>
+                <div class="col-xs-12">
+                    <h2 class="l-header semibold dark condensed uppercase t-left">Beschreibung</h2>
+                    <p>Emma ist fest davon überzeugt, dass sie von ihren echten Eltern mit 3 Jahren auf der Erde
+                        abgesetzt
+                        worden ist.</p>
+                </div>
+                <div class="col-xs-12"><br></div>
+                <div class="col-xs-12">
+                    <h2 class="l-header semibold dark condensed uppercase t-left">Musik</h2>
+                    <p>Für den Film wurde zahlreiche Musik komponiert. Zu Emmas Thema gibt es <a
+                                href="files/Emma_Turing-Piano_Score.pdf" target="_blank"><u>hier Klaviernoten</u></a>.
+                    </p>
+                </div>
             </div>
 
             <br>
