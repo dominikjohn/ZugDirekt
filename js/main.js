@@ -21,13 +21,24 @@ $(document).ready(function () {
 
 function flickerLight() {
 
-    $('#logo').css({opacity: '0.1'})
-        .delay(30 + Math.floor(Math.random() * 60))
-        .fadeTo(70, 1);
+    var random = Math.random();
+
+    // if (random <= 0.4) {
+    //     $('#logo').css({opacity: '0.1'})
+    //         .delay(30 + Math.floor(Math.random() * 60))
+    //         .fadeTo(70, 1);
+    // } else {
+        $('#logo').css({opacity: '0.1'})
+            .delay(30 + Math.floor(Math.random() * 60))
+            .fadeTo(150, 1);
+        // $('#logo').delay(150).css({opacity: '0.1'})
+        //     .delay(30 + Math.floor(Math.random() * 60))
+        //     .fadeTo(70, 1);
+    // }
 
     window.setTimeout(function () {
         flickerLight()
-    }, Math.pow(5 + Math.floor(Math.random() * 120), 2))
+    }, Math.pow(5 + Math.floor(Math.random() * 80), 2))
 
 }
 
