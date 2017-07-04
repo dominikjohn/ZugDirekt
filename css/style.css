@@ -7,13 +7,72 @@
 
 /* CUSTOM STUFF */
 
+.home {
+    background-color: lightgray;
+}
+
+.maintitle {
+    width: 100%;
+    height: auto;
+    color: black;
+    font-size: 6vw;
+    text-align: center;
+}
+
+.circle {
+    height: 15vw;
+    background-color: black;
+    border-radius: 50%;
+    width: 15vw;
+    display: inline-block;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+.equal {
+
+}
+
+#zd-text {
+    display: flex;
+    align-items: center;
+}
+
+#downarrow {
+    margin-top: 20px;
+}
+
+.circle img {
+    padding: 13%;
+    height: 100%;
+    /*max-height: 100%;*/
+    width: 100%;
+}
+
+.title-container {
+    height: 500px;
+}
+
+.vert-align {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .nodisplay {
     opacity: 0;
 }
 
 @media only screen and (min-width: 0px) {
-    .logo img {
-        width: 30%;
+    .circle {
+        height: 60vw;
+        width: 60vw;
+    }
+    .maintitle {
+        margin-top: 25px;
+        font-size: 15vw;
     }
 
     .about-box {
@@ -23,8 +82,13 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
-    .logo img {
-        width: 30%;
+    .circle {
+        height: 60vw;
+        width: 60vw;
+    }
+    .maintitle {
+        margin-top: 25px;
+        font-size: 15vw;
     }
 
     .about-box {
@@ -34,8 +98,13 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
-    .logo img {
-        width: 24%;
+    .circle {
+        height: 40vw;
+        width: 40vw;
+    }
+    .maintitle {
+        margin-top: 25px;
+        font-size: 10vw;
     }
 
     .about-box {
@@ -45,8 +114,20 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
-    .logo img {
-        width: 23%;
+    .circle {
+        height: 30vw;
+        width: 30vw;
+        margin-right: -3px;
+    }
+    .maintitle {
+        margin-top: 25px;
+        font-size: 10vw;
+        margin-left: -3px;
+    }
+
+    .equal {
+        display: -webkit-flex;
+        display: flex;
     }
 
     .about-box {
@@ -56,14 +137,68 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
-    .logo img {
-        width: 20%;
+    .circle {
+        height: 25vw;
+        width: 25vw;
+    }
+    .maintitle {
+        margin-top: 25px;
+        font-size: 10vw;
     }
 
+    .equal {
+        display: -webkit-flex;
+        display: flex;
+    }
     .about-box {
         cursor: default;
     }
 }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 1300px) {
+    .circle {
+        height: 18vw;
+        width: 18vw;
+        /*margin-left: -1px;*/
+        /*margin-right: 20px;*/
+    }
+    .maintitle {
+        margin-top: 25px;
+        font-size: 8vw;
+    }
+
+    .equal {
+        display: -webkit-flex;
+        display: flex;
+    }
+    .about-box {
+        cursor: default;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 1600px) {
+    .circle {
+        height: 17vw;
+        width: 17vw;
+        /*margin-left: -1px;*/
+        /*margin-right: 20px;*/
+    }
+    .maintitle {
+        margin-top: 25px;
+        font-size: 6vw;
+    }
+
+    .equal {
+        display: -webkit-flex;
+        display: flex;
+    }
+    .about-box {
+        cursor: default;
+    }
+}
+
 
 .team-name {
     font-family: 'Open Sans', sans-serif;
@@ -71,13 +206,14 @@
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
-    .logo img {
-        width: 15%;
-    }
-}
+/*@media only screen and (min-width: 1200px) {*/
+    /*.logo img {*/
+        /*width: 15%;*/
+    /*}*/
+/*}*/
 
 .inverted {
+    -webkit-filter: invert(100%);
     filter: invert(100%);
 }
 
@@ -532,10 +668,10 @@ b.caret {
     top: 0;
 }
 
-.home {
-    background: url(../images/1.jpg) center center fixed;
-    position: relative;
-}
+/*.home {*/
+/*background: url(../images/1.jpg) center center fixed;*/
+/*position: relative;*/
+/*}*/
 
 .home:after {
     clear: both;
@@ -561,12 +697,12 @@ b.caret {
     -ms-animation: BackgroundAnimation 300s linear infinite;
 }
 
-.hometexts-1 {
-    font-size: 95px;
-    height: auto;
-    color: white;
-    line-height: 95px;
-}
+/*.hometexts-1 {*/
+/*font-size: 95px;*/
+/*height: auto;*/
+/*color: white;*/
+/*line-height: 95px;*/
+/*}*/
 
 .hometexts-1 .slide-text-1 {
     margin-bottom: 0;
@@ -627,11 +763,11 @@ b.caret {
 
 /* Fixed Text */
 
-.fixed-text {
-    font-size: 60px;
-    color: #a8a8a8;
-    margin: 0;
-}
+/*.fixed-text {*/
+/*font-size: 60px;*/
+/*color: #a8a8a8;*/
+/*margin: 0;*/
+/*}*/
 
 /* Cetagories */
 
@@ -973,6 +1109,7 @@ b.caret {
 
 .site-logo a.logo {
     display: block;
+    z-index: 10;
 }
 
 .site-logo a.logo img {
