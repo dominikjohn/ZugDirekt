@@ -12,38 +12,38 @@
 <!-- Home Section -->
 
 <section id="home">
-    <div id="slides" class="home parallax pattern-black">
+    <div id="slides" class="home">
         <div class="home-details">
 
-
-            <!-- Your Logo -->
-            <div class="logo animated" data-animation="fadeInUp" data-animation-delay="500">
-                <img id="logo" src="images/logo-icon.svg" alt="Logo"/>
-            </div>
-            <div class="animated" data-animation="fadeInUp" data-animation-delay="400">
-                <div class="hometexts">
-                    <!-- Slide Texts -->
-                    <ul class="condensed" style="margin-bottom: 10px">
-                        <li class="maintitle bold" style="font-size: 1.5em">zugdirekt</li>
-                    </ul>
+            <div class="col-md-10 col-centered">
+                <div class="row equal">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="center">
+                            <div class="circle">
+                                <img id="logo" src="images/logo-icon.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12" id="zd-text">
+                        <span class="maintitle condensed bold">zugdirekt</span>
+                    </div>
                 </div>
-
-                <!--<h1 class="fixed-text uppercase bold condensed">Home Of <span id="toswitch"
-                                                                              class="colored">Creativity</span></h1>-->
-                <!-- Home Categories -->
-                <!--                <ul class="home-categories">-->
-                <!--                    <li class="h-item uppercase ">cinematography</li>-->
-                <!--                    <li class="h-item uppercase ">photography</li>-->
-                <!--                    <li class="h-item uppercase ">web design</li>-->
-                <!--                </ul>-->
-                <!-- Bottom Arrow -->
-                <a href="#upcoming" class="home-arrow scroll uppercase bold animated" data-animation="fadeInUp"
-                   data-animation-delay="1500">
-                    <img style="margin-top: 10px" src="images/arrow-down.svg" width="60px"/>
-                    <!--<span>what we do ?</span>-->
-                </a>
             </div>
-        </div><!-- End Home Texts -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="#upcoming" class="home-arrow scroll uppercase bold animated" data-animation="fadeInUp"
+                       data-animation-delay="1000">
+                        <img style="margin-top: 75px;" class="inverted" src="images/arrow-down.svg" width="60px"/>
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- Bottom Arrow -->
+
+        </div>
+    </div><!-- End Home Texts -->
     </div><!-- End Home Details -->
 </section><!-- End Home Section -->
 
@@ -55,7 +55,6 @@
 
         <h4 class="dark">Kurzfilm, München, 2017<span class="dark bold"></span>
         </h4>
-
         <div class="team-members inner-details">
             <!-- Member -->
             <div class="col-xs-6 col-lg-7 col-centered member animated" data-animation="fadeInUp"
