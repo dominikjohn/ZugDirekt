@@ -4,7 +4,7 @@
     <div class="nav-inner">
         <!-- Site Logo -->
         <div class="site-logo">
-            <a href="index3.php#home" class="">
+            <a href="index.php#home" class="">
                 <img src="images/logo-icon.svg" style="filter: invert(100%)" width="30px">
             </a>
         </div><!-- End Site Logo -->
@@ -12,9 +12,9 @@
         <!-- Navigation Menu -->
         <div class="nav-menu">
             <ul class="nav uppercase condensed bold">
-                <li><a href="index3.php#home" class="scroll">home</a></li>
+                <li><a href="index.php#home" class="scroll">home</a></li>
                 <li class="dropdown-toggle nav-toggle">
-                    <a href="index3.php#video" class="scroll">video<b data-toggle="dropdown" class="caret"></b></a>
+                    <a href="index.php#video" class="scroll">video<b data-toggle="dropdown" class="caret"></b></a>
                     <!-- DropDown Menu -->
                     <ul class="dropdown-menu uppercase gray-border">
                         <li><a href="emmaturing">Emma Turing</a></li>
@@ -25,15 +25,15 @@
                     </ul><!-- End DropDown Menu -->
                 </li>
                 <li class="dropdown-toggle nav-toggle">
-                    <a href="index3.php#photo" class="scroll">foto<b data-toggle="dropdown" class="caret"></b></a>
+                    <a href="index.php#photo" class="scroll">foto<b data-toggle="dropdown" class="caret"></b></a>
                     <!-- DropDown Menu -->
                     <ul class="dropdown-menu uppercase gray-border">
                         <li><a href="smaek">SMAEK</a></li>
                         <li><a href="openfirenotallowed">OFNA</a></li>
                     </ul><!-- End DropDown Menu -->
                 </li>
-                <li><a href="index3.php#team" class="scroll">team</a></li>
-                <li><a href="index3.php#contact" class="scroll">kontakt</a></li>
+                <li><a href="index.php#team" class="scroll">team</a></li>
+                <li><a href="index.php#contact" class="scroll">kontakt</a></li>
             </ul>
         </div><!-- End Navigation Menu -->
     </div><!-- End Navigation Inner -->

@@ -11,6 +11,12 @@
     background-color: lightgray;
 }
 
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .maintitle {
     width: 100%;
     height: auto;
@@ -52,10 +58,6 @@
     width: 100%;
 }
 
-.title-container {
-    height: 500px;
-}
-
 .vert-align {
     display: table-cell;
     vertical-align: middle;
@@ -70,6 +72,7 @@
         height: 60vw;
         width: 60vw;
     }
+
     .maintitle {
         margin-top: 25px;
         font-size: 15vw;
@@ -86,6 +89,7 @@
         height: 60vw;
         width: 60vw;
     }
+
     .maintitle {
         margin-top: 25px;
         font-size: 15vw;
@@ -102,6 +106,7 @@
         height: 40vw;
         width: 40vw;
     }
+
     .maintitle {
         margin-top: 25px;
         font-size: 10vw;
@@ -119,6 +124,7 @@
         width: 30vw;
         margin-right: -3px;
     }
+
     .maintitle {
         margin-top: 25px;
         font-size: 10vw;
@@ -141,6 +147,7 @@
         height: 25vw;
         width: 25vw;
     }
+
     .maintitle {
         margin-top: 25px;
         font-size: 10vw;
@@ -150,6 +157,7 @@
         display: -webkit-flex;
         display: flex;
     }
+
     .about-box {
         cursor: default;
     }
@@ -163,6 +171,7 @@
         /*margin-left: -1px;*/
         /*margin-right: 20px;*/
     }
+
     .maintitle {
         margin-top: 25px;
         font-size: 8vw;
@@ -172,6 +181,7 @@
         display: -webkit-flex;
         display: flex;
     }
+
     .about-box {
         cursor: default;
     }
@@ -185,6 +195,7 @@
         /*margin-left: -1px;*/
         /*margin-right: 20px;*/
     }
+
     .maintitle {
         margin-top: 25px;
         font-size: 6vw;
@@ -194,11 +205,11 @@
         display: -webkit-flex;
         display: flex;
     }
+
     .about-box {
         cursor: default;
     }
 }
-
 
 .team-name {
     font-family: 'Open Sans', sans-serif;
@@ -207,9 +218,9 @@
 
 /* Large Devices, Wide Screens */
 /*@media only screen and (min-width: 1200px) {*/
-    /*.logo img {*/
-        /*width: 15%;*/
-    /*}*/
+/*.logo img {*/
+/*width: 15%;*/
+/*}*/
 /*}*/
 
 .inverted {
@@ -732,7 +743,7 @@ b.caret {
 /* Details */
 
 .home-details {
-    width: 90%;
+    /*width: 90%;*/
     margin: 0 auto;
     height: auto;
     max-width: 1170px;
